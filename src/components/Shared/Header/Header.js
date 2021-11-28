@@ -1,9 +1,18 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import icon from '../../../images/icon/b-7.png'
+import { Link } from 'react-router-dom';
+import icon from '../../../images/icon/b-7.png';
+import resume from '../../../resume/DILRUBA JANNAT BORNA(2).pdf'
 import './Header.css'
+// import { saveAs } from "file-saver";
 
 const Header = () => {
+    // const saveFile = () => {
+    //     saveAs(
+    //         "https://drive.google.com/file/d/1P7Zkc474NSN9anV42v55jO2rRG-HNmZF/view?usp=sharing"
+    //     );
+    // };
+      
     return (
         <div>
             <Navbar collapseOnSelect expand="lg" variant="white">
@@ -19,8 +28,9 @@ const Header = () => {
                         <Nav>
                             <Nav.Link className="nav_bar" href="#deets">PROJECTS</Nav.Link>
                             <Nav.Link className="nav_bar" href="#deets">CONTACT ME</Nav.Link>
-                            <Nav.Link className="nav_bar" href="#deets">DOWNLOAD RESUME</Nav.Link>
+                            <Nav.Link className="nav_bar" href={resume}>DOWNLOAD RESUME</Nav.Link>
                             
+                            {/* <button onClick={saveFile}>download</button> */}
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
