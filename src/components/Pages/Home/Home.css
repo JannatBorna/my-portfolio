@@ -1,0 +1,52 @@
+.home_page{
+    justify-content: center;
+    align-items: center;
+}
+
+.text_tag{
+  margin-left: 90px;
+}
+
+.tag_p{
+    color: gray;
+    font-size: 30px;
+}
+
+.static-txt{
+    color: rgb(182, 110, 110);
+    font-size: 23px;
+}
+
+
+.program{
+    display: flex;
+    color: rgb(182, 110, 110);
+    font-size: 23px;
+    animation: type 3s steps(19);
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: consolas;
+    border-right: 4px solid rgb(209, 36, 36);
+    width: 19ch;
+
+}
+
+@keyframes type {
+    0%{
+        width: 0ch;
+    }
+
+    100%{
+       width: 19ch;
+    }
+}
+
+.tag_small{
+    color: rgb(177, 175, 175);
+    font-size: 13px;
+}
+
+.image{
+    margin: 50px;
+   
+}

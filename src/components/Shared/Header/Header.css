@@ -1,0 +1,13 @@
+.image_tag{
+    width: 10%;
+}
+
+#responsive-navbar-nav{
+    color: rgb(255, 255, 255) !important;
+
+}
+
+.nav_bar:hover{
+    color: rgb(235, 91, 55) !important;
+}    
+    
