@@ -1,16 +1,20 @@
 .project{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* background-color: #e9f1f1; */
      margin: 50px;
      padding: 10px;
-     border: 1px solid rgb(228, 226, 226);
-     height: 340px;
+     border: 1px solid rgb(170, 66, 66);
+     height: 420px;
+     width: 70%;
      border-radius: 7px;
 }
 
-.project:hover{
+/* .project:hover{
     z-index: 1;
     box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
     transform: scale(1.05);
-}
+} */
 
 .description-text{
     font-size: 11px;
@@ -32,7 +36,14 @@
     font-size: 50px;
     font-weight: 500;
 }
-/* .book-food{
-    text-decoration: none;
-    background-color: rgb(226, 57, 91) !important;
-} */
+@media only screen and (max-width:688px) {
+    .project{
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  @media only screen and (min-width:689px) and (max-width: 991px) {
+    .project{
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }

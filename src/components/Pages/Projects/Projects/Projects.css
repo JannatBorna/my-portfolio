@@ -1,7 +1,7 @@
 .container_projects{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  background-color: rgb(84, 85, 85);
+  grid-template-columns: repeat(1, 1fr);
+  background-color: #545555;
 }
 
 

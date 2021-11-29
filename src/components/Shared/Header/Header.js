@@ -17,12 +17,12 @@ const Header = () => {
         <div>
             <Navbar collapseOnSelect expand="lg" variant="white">
                 <Container>
-                    <Navbar.Brand href="#home">
-                        {/* <img className="image_tag" src={icon} alt="" /> */}
+                    <Navbar.Brand href="#home" className="text-white">
+                    
                         <img src={icon} alt="" width="60" height="40" className="img_color"/>
 
                     </Navbar.Brand>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" className="text-white"/>
                     <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                         
                         <Nav>
@@ -31,7 +31,7 @@ const Header = () => {
                             <Nav.Link className="nav_bar" href="/contact">CONTACT</Nav.Link>
                             <Nav.Link className="nav_bar" href={resume}>DOWNLOAD RESUME</Nav.Link>
                             
-                            {/* <button onClick={saveFile}>download</button> */}
+                          
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

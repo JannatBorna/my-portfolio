@@ -14,3 +14,18 @@
 .img_color{
    margin-top: 10px;
 }
+
+@media only screen and (max-width:688px) {
+    #responsive-navbar-nav{
+    color: rgb(255, 255, 255) !important;
+
+
+    }
+  }
+
+  @media only screen and (min-width:689px) and (max-width: 991px) {
+    #responsive-navbar-nav{
+    color: rgb(255, 255, 255) !important;
+
+}
+  }

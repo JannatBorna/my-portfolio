@@ -34,7 +34,7 @@ const Contact = () => {
                 
        
             <footer className="my-5">
-                        <small className="footer_text">Copyright &copy 2021 | Jannat Borna;</small>
+                        <small className="footer_text">Copyright &copy; 2021 | Jannat Borna</small>
                           <br />
                         <span className="text-white my-5">Dhaka, Bangladesh</span>
         
