@@ -26,8 +26,9 @@ const Header = () => {
                     <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                         
                         <Nav>
-                            <Nav.Link className="nav_bar" href="#deets">PROJECTS</Nav.Link>
-                            <Nav.Link className="nav_bar" href="#deets">CONTACT ME</Nav.Link>
+                            <Nav.Link className="nav_bar" href="/home">HOME</Nav.Link>
+                            <Nav.Link className="nav_bar" href="/projects">PROJECTS</Nav.Link>
+                            <Nav.Link className="nav_bar" href="#contact me/contact me">CONTACT ME</Nav.Link>
                             <Nav.Link className="nav_bar" href={resume}>DOWNLOAD RESUME</Nav.Link>
                             
                             {/* <button onClick={saveFile}>download</button> */}

@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Hotel Tourism",
+        "img": "https://i.ibb.co/XC3gtZc/project-1.png",
+        "discretion": "A full-stack agency app using React, Node.js, Mongodb, Bootstrap, Heroku"
+    },
+    {
+        "name": "perfume pride",
+        "img": "https://i.ibb.co/KFJ2TLw/project-2.png",
+        "discretion": "A full-stack agency app using React, Node.js, Mongodb, Bootstrap, Heroku"
+    },
+    {
+        "name": "LifeLine Medical",
+        "img": "https://i.ibb.co/h9QLf8M/projects-3.png",
+        "discretion": "Medical services website using React, Bootstrap, HTML, CSS, Netlify"
+    },
+    {
+        "name": "Chef Journey",
+        "img": "https://i.ibb.co/brw97dR/project-4.png",
+        "discretion": "This is an online learning platform website using html, css, bootstrap"
+    },
+    {
+        "name": "Book Archives",
+        "img": "https://i.ibb.co/2tn2S8w/project-6.png",
+        "discretion": "This is an online book searching website using html, css, javascript"
+    },
+    {
+        "name": "Martial Arts",
+        "img": "https://i.ibb.co/2Skx0GR/project-8.png",
+        "discretion": "This is an online learning platform website using html, css, bootstrap"
+    }
+]
