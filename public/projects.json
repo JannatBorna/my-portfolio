@@ -13,7 +13,7 @@
 
     {
         "name": "perfume pride",
-        "img": "https://i.ibb.co/KFJ2TLw/project-2.png",
+        "img": "https://i.ibb.co/SnrX17s/project-2.png",
         "discretion": "My website name is Perfume Price. This website is Niche website. This website is Perfume related only. This is a niche website and perfume-related. This website has two dashboards - user and admin. This is a niche website and perfume-related. This website has two dashboards -user and admin. The user needs to log in or register before ordering. Then be able to order the product. User Dashboard - Payment, add a review, my order page. Admin can add, remove and update any product. Admin Dashboard - Manage All Orders, Add A Product, Make Admin, Manage Products page that only admins can see, not users.",
         
         "Technology": "React, React Bootstrap, Material UI, React Router, React hook form, React router hash link, Firebase Authentication, Private-route.",

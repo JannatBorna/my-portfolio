@@ -1,11 +1,11 @@
 .project{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    /* background-color: #e9f1f1; */
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-gap: 10px;
      margin: 50px;
      padding: 10px;
      border: 1px solid rgb(170, 66, 66);
-     height: 440px;
+     height: 480px;
      width: 86%;
      border-radius: 7px;
 }
