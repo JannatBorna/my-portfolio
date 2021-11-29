@@ -9,7 +9,7 @@ const HomeProject = ({ homeProject}) => {
           <div className="service">
 
               <Container>
-                  <img className="w-100" src={img} alt="" />
+                  <img className="w-100 img-size" src={img} alt="" />
                   <h4 className="name-text my-2 text-danger">{name}</h4>
                   <small className="description-text text-white">{discretion?.slice(0, 50)}</small>
                   
