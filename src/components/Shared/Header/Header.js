@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import icon from '../../../images/icon/b-7.png';
+import icon from '../../../images/icon/b-13.png';
 import resume from '../../../resume/DILRUBA JANNAT BORNA(2).pdf'
 import './Header.css'
 // import { saveAs } from "file-saver";
@@ -19,7 +19,7 @@ const Header = () => {
                 <Container>
                     <Navbar.Brand href="#home">
                         {/* <img className="image_tag" src={icon} alt="" /> */}
-                        <img src={icon} alt="" width="55" height="30"></img>
+                        <img src={icon} alt="" width="60" height="40" className="img_color"/>
 
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
