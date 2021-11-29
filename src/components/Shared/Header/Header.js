@@ -19,7 +19,7 @@ const Header = () => {
                 <Container>
                     <Navbar.Brand href="#home" className="text-white">
                     
-                        <img src={icon} alt="" width="60" height="40" className="img_color"/>
+                        {/* <img src={icon} alt="" width="60" height="40" className="img_color"/> */}
 
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" className="text-white"/>

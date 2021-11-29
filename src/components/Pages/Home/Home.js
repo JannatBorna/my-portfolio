@@ -1,6 +1,8 @@
 import React from 'react';
 import { Col, Container, Image, Row } from 'react-bootstrap';
 import img from '../../../images/borna-3.jpg'
+
+import HomeProjects from '../HomeProjects/HomeProjects/HomeProjects';
 import './Home.css'
 
 const Home = () => {
@@ -34,10 +36,10 @@ const Home = () => {
                           <Image className="h-25 w-75 mt-5" src={img} roundedCircle />
                     </Col>
                     
-                   
+                </Row>   
                         
-                    
-                </Row>
+              <HomeProjects></HomeProjects>     
+                
             </Container>
         </div>
     );
