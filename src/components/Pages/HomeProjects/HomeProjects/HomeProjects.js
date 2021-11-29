@@ -13,7 +13,7 @@ const HomeProjects = () => {
     }, [])
     return (
         <div>
-            <h2 className="text-white my_projects justify-content-middle">My Projects</h2>
+            <h2 className="text-danger justify-content-middle">My Projects</h2>
             <div className="container_HomeProjects">
                 {
                     homeProjects.map(homeProject => <HomeProject

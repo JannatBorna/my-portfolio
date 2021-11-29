@@ -4,26 +4,6 @@
   
 }
 
-.my_projects{
-    display: flex;
-    animation: type 5s steps(11);
-    overflow: hidden;
-    white-space: nowrap;
-    font-family: consolas;
-    border-right: 4px solid rgb(209, 36, 36);
-    width: 11ch;
-
-}
-
-@keyframes type {
-    0%{
-        width: 0ch;
-    }
-
-    100%{
-       width: 11ch;
-    }
-}
 
     
     
