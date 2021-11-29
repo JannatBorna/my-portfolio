@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import icon from '../../../images/icon/b-13.png';
+import icon from '../../../images/icon/b-3.png';
 import resume from '../../../resume/DILRUBA JANNAT BORNA(2).pdf'
 import './Header.css'
 // import { saveAs } from "file-saver";
@@ -28,7 +28,7 @@ const Header = () => {
                         <Nav>
                             <Nav.Link className="nav_bar" href="/home">HOME</Nav.Link>
                             <Nav.Link className="nav_bar" href="/projects">PROJECTS</Nav.Link>
-                            <Nav.Link className="nav_bar" href="#contact me/contact me">CONTACT ME</Nav.Link>
+                            <Nav.Link className="nav_bar" href="/contact">CONTACT</Nav.Link>
                             <Nav.Link className="nav_bar" href={resume}>DOWNLOAD RESUME</Nav.Link>
                             
                             {/* <button onClick={saveFile}>download</button> */}

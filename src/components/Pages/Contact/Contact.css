@@ -1,0 +1,31 @@
+/* .from_background{
+   margin-top: 50px;
+   width: 50%;
+   background-color: rgb(253, 255, 255) !important;
+   /* background-position: center;
+   background-size: cover; 
+}
+
+.from_text{
+    color: white !important;
+} */
+
+.contact form{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.contact form input, textarea{
+    width: 60%;
+    margin-bottom: 10px;
+    border: 1px solid brown;
+    border-radius: 5px;
+}
+
+.footer_text{
+    color: white !important;
+    font-size: 12px;
+}

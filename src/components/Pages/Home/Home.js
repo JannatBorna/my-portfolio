@@ -32,6 +32,8 @@ const Home = () => {
                                 <a href="https://www.linkedin.com/in/dilruba-jannat-borna-09147b216/" className="mx-3"><i className="fab fa-linkedin"></i></a>
                                
                                 <a href="https://www.facebook.com/Bornabaset" className="mx-3"><i className="fab fa-facebook-square"></i></a>
+
+                                <a href="https://www.instagram.com/" className="mx-3"><i className="fab fa-instagram"></i></a>
                            </div>
 
                         </div>

@@ -7,6 +7,7 @@ import {
 import Header from './components/Shared/Header/Header';
 import Home from './components/Pages/Home/Home';
 import Projects from './components/Pages/Projects/Projects/Projects';
+import Contact from './components/Pages/Contact/Contact';
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
           <Route exact path="/projects" element={<Projects />}>
           </Route>
 
+          <Route exact path="/contact" element={<Contact />}>
+          </Route>
               
 
            </Routes>
