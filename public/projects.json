@@ -2,31 +2,49 @@
     {
         "name": "Hotel Tourism",
         "img": "https://i.ibb.co/XC3gtZc/project-1.png",
-        "discretion": "A full-stack agency app using React, Node.js, Mongodb, Bootstrap, Heroku"
+        "discretion": "A full-stack agency app using React, Node.js, Mongodb, Bootstrap, Heroku",
+        "live":"https://react-firebase-authentic-babb0.web.app/",
+        "github": "https://github.com/JannatBorna/tourism-project-assignment-11-client-side"
+
     },
+
     {
         "name": "perfume pride",
         "img": "https://i.ibb.co/KFJ2TLw/project-2.png",
-        "discretion": "A full-stack agency app using React, Node.js, Mongodb, Bootstrap, Heroku"
+        "discretion": "A full-stack agency app using React, Node.js, Mongodb, Bootstrap, Heroku",
+        "live": "https://assignment12-5175d.web.app/",
+        "github": "https://github.com/JannatBorna/project-client-side-assignment-12"
     },
+
     {
         "name": "LifeLine Medical",
         "img": "https://i.ibb.co/h9QLf8M/projects-3.png",
-        "discretion": "Medical services website using React, Bootstrap, HTML, CSS, Netlify"
+        "discretion": "Medical services website using React, Bootstrap, HTML, CSS, Netlify",
+        "live": "https://lifeline-medical.web.app/",
+        "github": "https://github.com/JannatBorna/healthcare-website-assignment-10"
     },
+
     {
         "name": "Chef Journey",
         "img": "https://i.ibb.co/brw97dR/project-4.png",
-        "discretion": "This is an online learning platform website using html, css, bootstrap"
+        "discretion": "This is an online learning platform website using html, css, bootstrap",
+        "live": "https://assignment-8-musing-gates-471b6f.netlify.app/",
+        "github": "https://github.com/JannatBorna/project-assignment-8/tree/main/assignment-8"
     },
+
     {
         "name": "Book Archives",
         "img": "https://i.ibb.co/2tn2S8w/project-6.png",
-        "discretion": "This is an online book searching website using html, css, javascript"
+        "discretion": "This is an online book searching website using html, css, javascript",
+        "live": "https://assignment-6-gates-843127.netlify.app/",
+        "github": "https://github.com/JannatBorna/project-assignment-6"
     },
+
     {
         "name": "Martial Arts",
         "img": "https://i.ibb.co/2Skx0GR/project-8.png",
-        "discretion": "This is an online learning platform website using html, css, bootstrap"
+        "discretion": "This is an online learning platform website using html, css, bootstrap",
+        "live": "https://assignment-9-modest-gates-ca00d0.netlify.app/home",
+        "github": "https://github.com/JannatBorna/project-assignment-9"
     }
 ]

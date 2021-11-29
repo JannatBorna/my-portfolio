@@ -10,8 +10,10 @@ import Projects from './components/Pages/Projects/Projects/Projects';
 import Contact from './components/Pages/Contact/Contact';
 
 function App() {
-  return (
+  return ( 
+  
     <div className="App">
+     
        <BrowserRouter>
              <Header></Header>
            <Routes>
@@ -25,13 +27,23 @@ function App() {
 
           <Route exact path="/contact" element={<Contact />}>
           </Route>
-              
 
-           </Routes>
-       
-       </BrowserRouter>
-    </div>
+         
+              
+        </Routes>
+      </BrowserRouter>
+    </div >   
+    
+
+     
+        
+    
+    
   );
 }
 
 export default App;
+ 
+        
+    
+      

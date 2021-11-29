@@ -1,6 +1,5 @@
 import React from 'react';
 import { Col, Container, Image, Row } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 import img from '../../../images/borna-3.jpg'
 import './Home.css'
 

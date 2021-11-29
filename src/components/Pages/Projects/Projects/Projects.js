@@ -16,7 +16,7 @@ const Projects = () => {
 
     return (
          <div>
-            <h2>My Projects</h2>
+            <h2 className="text-white">My Projects</h2>
             <div className="container_projects">
             {
                 projects.map(project => <Project
