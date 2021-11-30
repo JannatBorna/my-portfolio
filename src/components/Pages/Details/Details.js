@@ -4,6 +4,7 @@ import { useParams } from 'react-router';
 import image1 from '../../../images/projects/purfum-1.jpg'
 import image2 from '../../../images/projects/purfum-2.jpg'
 import image3 from '../../../images/projects/purfum-3.jpg'
+import './Details.css'
 
 const Details = () => {
    
@@ -16,7 +17,7 @@ const Details = () => {
 
     return (
         <div>
-            <h2 className="text-white">Details Id: {projectsId}</h2>
+            <h2 className="details_param">Details Id: {projectsId}</h2>
 
 
             {/* <h3>project: {details.name}</h3> */}
