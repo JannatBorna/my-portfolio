@@ -3,20 +3,52 @@ import { Col, Container, Image, Row } from 'react-bootstrap';
 import img from '../../../images/borna-3.jpg'
 import Contact from '../Contact/Contact';
 import resume2 from '../../../resume/DILRUBA JANNAT BORNA(2).pdf'
-
+import Typewriter from 'typewriter-effect';
 import HomeProjects from '../HomeProjects/HomeProjects/HomeProjects';
 import './Home.css'
 
 const Home = () => {
     return (
         <div className="home_page">
+            
             <Container>
                 <Row className="home_page">
                     <Col className="text_tag">
                         <div className="">
                             <p className="tag_p mx-5 text-sm-start">Hi.. I am Jannat Borna</p>
 
-                             <p className="program mx-5 text-sm-start">Front End Developer</p>
+                             <p className="program mx-5 text-sm-start">
+
+                                <Typewriter
+                                    onInit={(typewriter) => {
+                                        typewriter
+                                            .typeString('<strong style="color: #27ae60;">Programmer!</strong>')
+                                            .pauseFor(2000)
+                                            .deleteChars(11)
+                                            .typeString('<strong style="color: #27ae60;">Web Developer!</strong>')
+                                            .start()
+                                            .deleteChars(14)
+                                            .typeString('<strong style="color: #27ae60;">Web Developer!</strong>')
+                                            .start()
+                                            .deleteChars(16)
+                                            .typeString('<strong style="color: #27ae60;">Front End Developer!</strong>')
+                                            .start();
+                                    }}
+
+                                />
+
+                             </p>
+                            
+
+                            {/* <TypeWriter 
+                            typing={1}>
+                            Hello World!
+                            
+                            </TypeWriter> */}
+
+                            
+                                
+                           
                             
                           
                             <p className="tag_small mx-5 text-sm-start">I am an enthusiastic JavaScript with knowing some frameworks for the frontend and the backend.I always focus on learning new technology. </p>
