@@ -1,14 +1,9 @@
-/* .from_background{
-   margin-top: 50px;
-   width: 50%;
-   background-color: rgb(253, 255, 255) !important;
-   /* background-position: center;
-   background-size: cover; 
+.contact_type{
+    color: rgb(12, 241, 241) !important;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: lobster;
 }
-
-.from_text{
-    color: white !important;
-} */
 
 .contact form{
    display: flex;

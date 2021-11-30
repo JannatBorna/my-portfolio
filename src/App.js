@@ -10,6 +10,7 @@ import Projects from './components/Pages/Projects/Projects/Projects';
 import Contact from './components/Pages/Contact/Contact';
 import Details from './components/Pages/Details/Details';
 import AboutMe from './components/Pages/AboutMe/AboutMe';
+import Blog from './components/Pages/Blogs/Blog';
 
 
 function App() {
@@ -25,10 +26,13 @@ function App() {
             <Route exact path="/home" element={<Home />}>
             </Route>
 
+          <Route exact path="/projects" element={<Projects />}>
+          </Route>
+
           <Route exact path="/aboutMe" element={<AboutMe />}>
           </Route>
 
-          <Route exact path="/projects" element={<Projects />}>
+          <Route exact path="/blog" element={<Blog />}>
           </Route>
 
           <Route exact path="/contact" element={<Contact />}>
@@ -38,6 +42,8 @@ function App() {
 
           <Route exact path="/details/:projectsId" element={<Details />}>
           </Route>  
+
+          
 
           
           

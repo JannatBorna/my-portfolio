@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Container, Image, Row } from 'react-bootstrap';
 import img from '../../../images/borna-3.jpg'
+import Contact from '../Contact/Contact';
 
 import HomeProjects from '../HomeProjects/HomeProjects/HomeProjects';
 import './Home.css'
@@ -40,12 +41,14 @@ const Home = () => {
                     
                 </Row>   
                         
-              <HomeProjects></HomeProjects>     
+              <HomeProjects></HomeProjects>    
+
+              <Contact></Contact> 
                 
             </Container>
 
 
-            <footer className="my-5 text-sm-middle">
+            {/* <footer className="my-5 text-sm-middle">
                 <small className="footer_text">Copyright &copy; 2021 | Jannat Borna</small>
                 <br />
                 <span className="text-white my-5 footer_add">Dhaka, Bangladesh</span>
@@ -61,7 +64,7 @@ const Home = () => {
 
                     <a href="https://twitter.com/" className="mx-3"><i className="fab fa-twitter fs-6"></i></a>
                 </div>
-            </footer>
+            </footer> */}
         </div>
     );
 };

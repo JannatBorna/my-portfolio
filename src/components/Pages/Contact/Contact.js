@@ -22,7 +22,7 @@ const Contact = () => {
     return (
         <div>
             <div className="contact">
-                <h2 className="text-white mt-5">Contact Me</h2>
+                <h2 className="contact_type mt-5">Contact Me</h2>
                 <form onSubmit={sendEmail}>
                     <input className="bg-white mt-5" {...register("name", { required: true, maxLength: 25 })} placeholder="Enter Name" />
                     <input className="my-2 bg-white" {...register("user_email")} placeholder="Email" />
@@ -40,13 +40,15 @@ const Contact = () => {
         
          
               <div className="all_link text-sm-middle">
-                    <a href="https://github.com/JannatBorna" className="m-2"><i className="fab fa-github"></i></a>
+                        <a href="https://github.com/JannatBorna" className="m-2"><i className="fab fa-github fs-6"></i></a>
 
-                    <a href="https://www.linkedin.com/in/dilruba-jannat-borna-09147b216/" className="mx-3"><i className="fab fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/dilruba-jannat-borna-09147b216/" className="mx-3"><i className="fab fa-linkedin fs-6"></i></a>
 
-                    <a href="https://www.facebook.com/Bornabaset" className="mx-3"><i className="fab fa-facebook-square"></i></a>
+                        <a href="https://www.instagram.com/borna_jannat/" className="mx-3"><i class="fab fa-instagram fs-6"></i></a>
 
-                    <a href="https://www.instagram.com/" className="mx-3"><i className="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/Bornabaset" className="mx-3"><i className="fab fa-facebook-square fs-6"></i></a>
+
+                        <a href="https://twitter.com/" className="mx-3"><i className="fab fa-twitter fs-6"></i></a>
                
                 
                 </div>

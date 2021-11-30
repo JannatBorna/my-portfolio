@@ -11,7 +11,7 @@ const AboutMe = () => {
             
                 <Row className="text-sm-start">
                     <Col lg={4} md={4} sm={12}>
-                        <div className="about_img">
+                        <div className="about_img mx-5">
                             <img className="mt-5" src={about} alt="" />
                         </div>
                     </Col>

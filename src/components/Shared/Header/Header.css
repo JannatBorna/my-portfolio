@@ -7,6 +7,10 @@
 
 }
 
+.nav_bar{
+    font-size: 15px;
+}
+
 .nav_bar:hover{
     color: rgb(235, 91, 55) !important;
 }    
