@@ -4,7 +4,12 @@
   background-color: #545555;
 }
 
+.header_text{
+  color: white !important;
+  font-weight: 500;
+ 
 
+}
 
 
 @media only screen and (max-width:688px) {

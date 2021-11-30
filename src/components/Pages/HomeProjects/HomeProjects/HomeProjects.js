@@ -17,7 +17,7 @@ const HomeProjects = () => {
             <div className="container_HomeProjects">
                 {
                     homeProjects.map(homeProject => <HomeProject
-                        key={homeProject.name}
+                        key={homeProject._id}
                         homeProject={homeProject}
 
                     >

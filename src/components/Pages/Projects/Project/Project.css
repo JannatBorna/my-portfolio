@@ -5,7 +5,7 @@
      margin: 50px;
      padding: 10px;
      border: 1px solid rgb(170, 66, 66);
-     height: 480px;
+     height: 420px;
      width: 86%;
      border-radius: 7px;
 }
@@ -16,26 +16,30 @@
     transform: scale(1.05);
 } */
 
-.description-text{
-    font-size: 11px;
-    color: rgb(117, 110, 110);
+.text_type{
+  color: rgb(200, 202, 204) !important;
+  font-size: 13px;
 }
 
-.name-text{
-    font-size: 20px;
-    color: rgb(97, 97, 97);
+.button_color{
+  background-color: darkcyan !important;
+  color: white !important;
+  border-radius: 6px;
+  font-weight: 500;
 }
 
-.price-text{
-    font-size: 14px;
-    color: rgb(82, 82, 82);
+.discretion_type{
+    font-size: 15px;
+    color: darkcyan !important;
 }
 
-.later-color{
-    color: tomato !important;
-    font-size: 50px;
-    font-weight: 500;
+.name_text{
+    font-size: 24px;
+    color: rgb(214, 33, 33) !important;
 }
+
+
+
 @media only screen and (max-width:688px) {
     .project{
       grid-template-columns: repeat(1, 1fr);

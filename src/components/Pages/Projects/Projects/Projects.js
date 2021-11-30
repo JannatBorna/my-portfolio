@@ -16,12 +16,13 @@ const Projects = () => {
 
     return (
          <div>
-            <h2 className="text-white">My Projects</h2>
+            <h2 className="header_text mt-4">My Projects</h2>
             <div className="container_projects">
             {
                 projects.map(project => <Project
-                  key={project.name}
+                  key={project._id}
                   project={project}
+                  
                 
                 >
 

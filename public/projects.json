@@ -1,10 +1,20 @@
 [
-    {
+    {   
+        "_id": "1",
         "name": "Hotel Tourism",
         "img": "https://i.ibb.co/XC3gtZc/project-1.png",
-        "discretion": "Tourism-related website. Users can log in with Firebase authentication (Google Github).Through this website, users can get any hotel service. Click on Booking Now, but before that must log in. Users will be able to see the private page when logged in - My Order, Manage All Order, Add New Service. This website has some more services - courier service, resort service, tour guide service, guest house, sports tourism. Users will be able to all these services through this website",
+        "slid1": "https://i.ibb.co/4KKzkjP/hotel-1.jpg",
+        "slid2": "https://i.ibb.co/4YM6HLY/hotel-3.jpg",
+        "slid3": "https://i.ibb.co/j6rJc4p/hotel-4.jpg",
 
-        "Technology": "React, React Bootstrap, Material UI, React Router, React hook form, React router hash link, Firebase Authentication, Private-route.",
+        "discretion": "Tourism-related website.Through this website, users can get any hotel service. Click on Booking Now, but before that must log in.",
+        "disc1":"Users can log in with Firebase authentication (Google Github).",
+        "disc2": "private page when logged in - My Order, Manage All Order, Add New Service.",
+        "disc3": " Products delete, add, manage services.",
+        "disc4": "This website has some more services - courier service, resort service, tour guide service,",
+        "disc5": "Front-end technology: React js, Bootstrap, React Router, Firebase Authentication,React Spring, Material UI",
+        "disc6": "Back-end technology: Node js,Express js, MongoDB",
+       
 
         "live":"https://react-firebase-authentic-babb0.web.app/",
         "github": "https://github.com/JannatBorna/tourism-project-assignment-11-client-side"
@@ -12,52 +22,110 @@
     },
 
     {
-        "name": "perfume pride",
-        "img": "https://i.ibb.co/SnrX17s/project-2.png",
-        "discretion": "My website name is Perfume Price. This website is Niche website. This website is Perfume related only. This is a niche website and perfume-related. This website has two dashboards - user and admin. This is a niche website and perfume-related. This website has two dashboards -user and admin. The user needs to log in or register before ordering. Then be able to order the product. User Dashboard - Payment, add a review, my order page. Admin can add, remove and update any product. Admin Dashboard - Manage All Orders, Add A Product, Make Admin, Manage Products page that only admins can see, not users.",
+
+    "_id": "2",
+    "name": "perfume pride",
+    "img": "https://i.ibb.co/SnrX17s/project-2.png",
+    "slid1": "https://i.ibb.co/kHWnWGK/purfum-1.jpg",
+    "slid2": "https://i.ibb.co/718f69C/purfum-2.jpg",
+    "slid3": "https://i.ibb.co/VpCv29J/purfum-3.jpg",
+    "discretion": "This website is Niche website. This website is Perfume related only. This website has two dashboards -user and admin. User Dashboard - Payment, add a review, my order page.Admin Dashboard - Manage All Orders, Add A Product, Make Admin, Manage Products page that only admins can see, not users.",
+     "disc1": "Have admin and user different dashboard.",
+    "disc2": "Admin can delete, add, manage services.",
+    "disc3": "Admin can Make Admin also",
+    "disc4": "User can Login via (Email, Password)",
+    "disc5": "Front-end technology: React js, Bootstrap, React Router, Firebase Authentication,React Spring, Material UI",
+    "disc6": "Back-end technology: Node js,Express js, MongoDB",
+    "live": "https://assignment12-5175d.web.app/",
+    "github": "https://github.com/JannatBorna/project-client-side-assignment-12"
+   
+   },   
+    
+
         
-        "Technology": "React, React Bootstrap, Material UI, React Router, React hook form, React router hash link, Firebase Authentication, Private-route.",
         
-        
-        "live": "https://assignment12-5175d.web.app/",
-        "github": "https://github.com/JannatBorna/project-client-side-assignment-12"
-    },
+    
 
     {
-        "name": "LifeLine Medical",
-        "img": "https://i.ibb.co/h9QLf8M/projects-3.png",
-        "discretion": "This project-based online medical service concept can be found and this website is usually about medical services, healthcare, medical teams, appointments. We can take any service but you must log in first. If you click on a service, then see the details of those services. Users need to log in (Google, GitHub, Email, and Password) with firebase.y",
-        "Technology": "React bootstrap, plain bootstrap, plain CSS are used.",
-        "live": "https://lifeline-medical.web.app/",
-        "github": "https://github.com/JannatBorna/healthcare-website-assignment-10"
-    },
+
+    "_id": "3",
+    "name": "LifeLine Medical",
+    "img": "https://i.ibb.co/h9QLf8M/projects-3.png",
+    "slid1": "https://i.ibb.co/m81KHtx/doctor-1.jpg",
+    "slid2": "https://i.ibb.co/zbNwwq1/doctor-2.jpg",
+    "slid3": "https://i.ibb.co/87ZVvYk/doctor-3.jpg",
+    "discretion": "This project-based online medical service concept can be found and this website is usually about medical services, healthcare, medical teams, appointments. We can take any service but you must log in first. If you click on a service, then see the details of those services.",
+    "disc1": "Users need to log in (Google, GitHub, Email, and Password) with firebase",
+    "disc2": "click on a service, then see the details of those services.",
+    "disc3": "Firebase Authentication Used in this Website",
+    "disc4": "click on a service, then see the details of those services.",
+    "disc5": "React js, React bootstrap, plain bootstrap, Firebase Authentication, plain CSS are used.",
+    "disc6": "",
+    "live": "https://lifeline-medical.web.app/",
+    "github": "https://github.com/JannatBorna/healthcare-website-assignment-10"
+    
+     },
 
     {
-        "name": "Chef Journey",
-        "img": "https://i.ibb.co/brw97dR/project-4.png",
-        "discretion": "My website name is Chef Journey. This website is Niche website. This website is Perfume related only. This is a niche website and perfume-related. This website has two dashboards - user and admin. This is a niche website and perfume-related. This website has two dashboards -user and admin. The user needs to log in or register before ordering. Then be able to order the product. User Dashboard - Payment, add a review, my order page. Admin can add, remove and update any product. Admin Dashboard - Manage All Orders, Add A Product, Make Admin, Manage Products page that only admins can see, not users.",
-        "Technology": "React, React Bootstrap, Material UI, React Router, React hook form, React router hash link, Firebase Authentication, Private-route.",
-        "live": "https://assignment-8-musing-gates-471b6f.netlify.app/",
-        "github": "https://github.com/JannatBorna/project-assignment-8/tree/main/assignment-8"
-    },
+
+    "_id": "4",
+    "name": "Chef Journey",
+    "img": "https://i.ibb.co/brw97dR/project-4.png",
+    "slid1": "",
+    "slid2": "",
+    "slid3": "",
+    "discretion": "My website name is Chef Journey. This website is Niche website. This website is Perfume related only. This is a niche website and perfume-related. This website has two dashboards - user and admin. This is a niche website and perfume-related. This website has two dashboards -user and admin. The user needs to log in or register before ordering. Then be able to order the product. User Dashboard - Payment, add a review, my order page. Admin can add, remove and update any product. Admin Dashboard - Manage All Orders, Add A Product, Make Admin, Manage Products page that only admins can see, not users.",
+    "disc1": "Have admin and user different dashboard.",
+    "disc2": "Admin can delete, add, manage services.",
+    "disc3": "Admin can Make Admin also",
+    "disc4": "User can Login via (Email, Password)",
+    "disc5": "Front-end technology: React js, Bootstrap, React Router, Firebase Authentication,React Spring, Material UI",
+    "disc6": "Back-end technology: Node js,Express js, MongoDB",
+    "live": "https://assignment-8-musing-gates-471b6f.netlify.app/",
+    "github": "https://github.com/JannatBorna/project-assignment-8/tree/main/assignment-8"
+    
+},
 
     {
-        "name": "Book Archives",
-        "img": "https://i.ibb.co/2tn2S8w/project-6.png",
-       "discretion": "My website name is Book Archives. This website is Niche website. This website is Perfume related only. This is a niche website and perfume-related. This website has two dashboards - user and admin. This is a niche website and perfume-related. This website has two dashboards -user and admin. The user needs to log in or register before ordering. Then be able to order the product. User Dashboard - Payment, add a review, my order page. Admin can add, remove and update any product. Admin Dashboard - Manage All Orders, Add A Product, Make Admin, Manage Products page that only admins can see, not users.",
-        "Technology": "React, React Bootstrap, Material UI, React Router, React hook form, React router hash link, Firebase Authentication, Private-route.",
-        "live": "https://assignment-6-gates-843127.netlify.app/",
-        "github": "https://github.com/JannatBorna/project-assignment-6"
-    },
 
-    {
+    "_id": "5",
+    "name": "Book Archives",
+    "img": "https://i.ibb.co/2tn2S8w/project-6.png",
+    "slid1": "",
+    "slid2": "",
+    "slid3": "",
+    "discretion": "My website name is Book Archives. This website is Niche website. This website is Perfume related only. This is a niche website and perfume-related. This website has two dashboards - user and admin. This is a niche website and perfume-related. This website has two dashboards -user and admin. The user needs to log in or register before ordering. Then be able to order the product. User Dashboard - Payment, add a review, my order page. Admin can add, remove and update any product. Admin Dashboard - Manage All Orders, Add A Product, Make Admin, Manage Products page that only admins can see, not users.",
+
+   "disc1": "Have admin and user different dashboard.",
+   "disc2": "Admin can delete, add, manage services.",
+   "disc3": "Admin can Make Admin also",
+   "disc4": "User can Login via (Email, Password)",
+   "disc5": "Front-end technology: React js, Bootstrap, React Router, Firebase Authentication,React Spring, Material UI",
+   "disc6": "Back-end technology: Node js,Express js, MongoDB",
+    "live": "https://assignment-6-gates-843127.netlify.app/",
+    "github": "https://github.com/JannatBorna/project-assignment-6"
+    
+ },
+
+    { 
+        "_id": "6",
         "name": "Martial Arts",
         "img": "https://i.ibb.co/2Skx0GR/project-8.png",
-       "discretion": "My website name is Martial Arts. This website is Niche website. This website is Perfume related only. This is a niche website and perfume-related. This website has two dashboards - user and admin. This is a niche website and perfume-related. This website has two dashboards -user and admin. The user needs to log in or register before ordering. Then be able to order the product. User Dashboard - Payment, add a review, my order page. Admin can add, remove and update any product. Admin Dashboard - Manage All Orders, Add A Product, Make Admin, Manage Products page that only admins can see, not users.",
+        "slid1": "",
+        "slid2": "",
+        "slid3": "",
+       "discretion": "This is an single page website.This is university is platform anyone can choose his/her course and start learning and explore his/her idea in the real field.Concept was invented in the Martial Arts.",
     
-       "Technology": "React, React Bootstrap, Material UI, React Router, React hook form, React router hash link, Firebase Authentication, Private-route.",
+        "disc1": "Have admin and user different dashboard.",
+        "disc2": "Admin can delete, add, manage services.",
+        "disc3": "Admin can Make Admin also",
+        "disc4": "User can Login via (Email, Password)",
+        "disc5": "React js, Bootstrap, React Router, Firebase Authentication,React Spring, Material UI",
+        "disc6": "Node js,Express js, MongoDB",
+       
 
         "live": "https://assignment-9-modest-gates-ca00d0.netlify.app/home",
         "github": "https://github.com/JannatBorna/project-assignment-9"
     }
+    
 ]

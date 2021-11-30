@@ -8,6 +8,8 @@ import Header from './components/Shared/Header/Header';
 import Home from './components/Pages/Home/Home';
 import Projects from './components/Pages/Projects/Projects/Projects';
 import Contact from './components/Pages/Contact/Contact';
+import Details from './components/Pages/Details/Details';
+
 
 function App() {
   return ( 
@@ -28,6 +30,13 @@ function App() {
           <Route exact path="/contact" element={<Contact />}>
           </Route>
 
+        
+
+          <Route exact path="/details/:projectsId" element={<Details />}>
+          </Route>  
+
+          
+          
          
               
         </Routes>

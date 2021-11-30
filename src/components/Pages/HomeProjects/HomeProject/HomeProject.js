@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './HomeProject.css'
   
 const HomeProject = ({ homeProject}) => {
-      const { name, img, discretion } = homeProject;
+      const {_id, name, img, discretion } = homeProject;
       return (
           <div className="service">
 
@@ -14,7 +14,7 @@ const HomeProject = ({ homeProject}) => {
                   <small className="description-text text-white">{discretion?.slice(0, 50)}</small>
                   
                      <br />
-                  <Link to="/projects"><button className="btn btn-secondary  my-2">Details</button> </Link>
+                  <Link to={`/details/${_id}`}><button className="btn btn-secondary my-2">Details</button> </Link>
               </Container>
 
           </div>
