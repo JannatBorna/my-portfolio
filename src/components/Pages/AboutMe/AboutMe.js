@@ -9,17 +9,17 @@ const AboutMe = () => {
     <div className="about_area mb-5">
         <Container>
             
-                <Row>
-                    <Col lg={4}>
+                <Row className="text-sm-start">
+                    <Col lg={4} md={4} sm={12}>
                         <div className="about_img">
                             <img className="mt-5" src={about} alt="" />
                         </div>
                     </Col>
 
-                    <Col lg={6}>
-                        <div className="about_text text-sm-start mx-5">
-                            <h2>Hi I'm Dilruba Jannat Borna</h2>
-                            <p> am an enthusiastic JavaScript developer with knowing some framework for the frontend and the backend. I know Basic Python and MySQL but basically a MERN developer. I always focus on learning new technology. I am currently studying in the Department of Software Engineering at Yunnan University kunming,Yunnan,China.</p>
+                    <Col lg={6} md={6} sm={12}>
+                        <div className="about_text">
+                            <h2>Hi..!! I'm Dilruba Jannat Borna</h2>
+                            <p>I am an enthusiastic JavaScript developer with knowing some frameworks for the frontend and the backend. I  MERN developer. I always focus on learning new technology. I will finish my study in the Department of Computer Science and Engineering(CSE). University of Development Alternative (UODA), Dhaka.</p>
 
                             <div className="all_link text-sm-middle">
                                 <a href="https://github.com/JannatBorna" className="m-2"><i className="fab fa-github"></i></a>
@@ -37,8 +37,8 @@ const AboutMe = () => {
                     </Col>
                 </Row>
 
-                <Row className="mt-5">
-                    <Col lg={6} className="text-white">
+                <Row className="mt-5 text-sm-start" >
+                    <Col lg={6} md={6} sm={12}>
                        <h1 className="about_skills mt-5">My Skills</h1>
                            
                         <div className="text-sm-start mt-4">
@@ -105,14 +105,28 @@ const AboutMe = () => {
      
                     
                    
-                    <Col lg={4}>
-                        <div className="education mt-5">
+                    <Col lg={4} md={4} sm={12}>
+                       <div className="education mt-5 text-sm-start">
                             <h2 className="about_education mt-5">My Education</h2>
                             <h5>B.Sc. in Computer Science and Engineering(CSE)</h5>
                             <span>University of Development Alternative (UODA)</span>
                             <small> January 2018 – Current</small>
+                        </div>
+                           
+                        <div className="education mt-5 text-sm-start">
+                            <h2 className="about_education mt-5">My Hobby</h2>
+                            <ul>
+                                <li>I like to play video games</li>
+                                <li>Reading books</li>
+                                <li>learning something new</li>
+                                <li>It's my favorite part, always self toking, It's very important for every person.</li>
+                            </ul>
                             
-                       </div>
+                           
+                        </div>
+
+
+                       
                     </Col>
                 </Row>
                

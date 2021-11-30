@@ -44,12 +44,12 @@
 
 .about_skills{
     font-family: lobster;
-    color: royalblue !important;
+    color: rgb(4, 21, 255) !important;
     font-weight: 500;
 }
 
 .about_li{
-    color: rgb(241, 40, 57) !important;
+    color: rgb(247, 19, 38) !important;
     font-size: 30px;
     font-weight: 500;
 }    
@@ -77,5 +77,10 @@
 
 .education small{
    color: silver;
+   font-size: 13px;
+}
+
+.education li{
+  color: silver;
    font-size: 13px;
 }
