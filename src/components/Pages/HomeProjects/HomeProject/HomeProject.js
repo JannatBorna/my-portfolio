@@ -11,10 +11,10 @@ const HomeProject = ({ homeProject}) => {
               <Container>
                   <img className="w-100 img-size" src={img} alt="" />
                   <h4 className="name-text my-2 text-danger">{name}</h4>
-                  <small className="description-text text-white">{discretion?.slice(0, 50)}</small>
+                  <small className="description-text text-white">{discretion?.slice(0, 90)}</small>
                   
                      <br />
-                  <Link to={`/details/${_id}`}><button className="btn btn-secondary my-2">Details</button> </Link>
+                  <Link to={`/details/${_id}`}><button className="details_button my-2">Details</button> </Link>
               </Container>
 
           </div>

@@ -2,6 +2,7 @@ import React from 'react';
 import { Col, Container, Image, Row } from 'react-bootstrap';
 import img from '../../../images/borna-3.jpg'
 import Contact from '../Contact/Contact';
+import resume2 from '../../../resume/DILRUBA JANNAT BORNA(2).pdf'
 
 import HomeProjects from '../HomeProjects/HomeProjects/HomeProjects';
 import './Home.css'
@@ -18,8 +19,15 @@ const Home = () => {
                              <p className="program mx-5 text-sm-start">Front End Developer</p>
                             
                           
-                            <p className="tag_small mx-5 text-sm-start">I am an enthusiastic JavaScript with knowing some frameworks for the frontend and the backend. </p>
+                            <p className="tag_small mx-5 text-sm-start">I am an enthusiastic JavaScript with knowing some frameworks for the frontend and the backend.I always focus on learning new technology. </p>
 
+                           
+                            <div className="home_button">
+                                <button className=" mb-3 mx-5 button_color">Hire Me</button>
+                                <a href={resume2}><button className="mt-3 button_color">Download Resume</button></a
+                                >
+
+                           </div>
                             <div className="all_link text-sm-middle">
                                 <a href="https://github.com/JannatBorna" className="m-2"><i className="fab fa-github"></i></a>
                                
@@ -48,23 +56,7 @@ const Home = () => {
             </Container>
 
 
-            {/* <footer className="my-5 text-sm-middle">
-                <small className="footer_text">Copyright &copy; 2021 | Jannat Borna</small>
-                <br />
-                <span className="text-white my-5 footer_add">Dhaka, Bangladesh</span>
-
-                <div className="all_link text-sm-middle">
-                    <a href="https://github.com/JannatBorna" className="m-2"><i className="fab fa-github fs-6"></i></a>
-
-                    <a href="https://www.linkedin.com/in/dilruba-jannat-borna-09147b216/" className="mx-3"><i className="fab fa-linkedin fs-6"></i></a>
-
-                    <a href="https://www.instagram.com/borna_jannat/" className="mx-3"><i class="fab fa-instagram fs-6"></i></a>
-
-                    <a href="https://www.facebook.com/Bornabaset" className="mx-3"><i className="fab fa-facebook-square fs-6"></i></a>
-
-                    <a href="https://twitter.com/" className="mx-3"><i className="fab fa-twitter fs-6"></i></a>
-                </div>
-            </footer> */}
+         
         </div>
     );
 };

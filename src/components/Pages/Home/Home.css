@@ -58,6 +58,10 @@
     
 }
 
+.home_button{
+    margin-left: -120px;
+}
+
 
 @media only screen and (max-width:688px) {
     .home_page{
