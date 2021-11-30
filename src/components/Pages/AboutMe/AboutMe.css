@@ -1,0 +1,81 @@
+.about_area{
+    padding-top: 5%;
+}    
+
+.about_img{
+    position: relative;
+}
+
+.about_img:before{
+    position: absolute;
+    content: '';
+    right: -30px;
+    top: 30px;
+    border: 5px solid rgb(41, 40, 40);
+    /* border-left:5px solid rgb(207, 80, 80); */
+    width: 100%;
+    height: 100%;
+}
+
+.about_img img{
+      width: 100%;
+      height: 400px;
+      
+}
+
+
+.about_text{
+    padding-top: 20%;
+    
+}
+
+.about_text h2{
+    color: rgb(255, 246, 255) !important;
+    font-family: lobster;
+    font-size: 40px;
+}
+
+.about_text p{
+    color: rgb(255, 246, 255) !important;
+    font-size: 15px;
+}
+
+
+
+.about_skills{
+    font-family: lobster;
+    color: royalblue !important;
+    font-weight: 500;
+}
+
+.about_li{
+    color: rgb(241, 40, 57) !important;
+    font-size: 30px;
+    font-weight: 500;
+}    
+
+.btn_style{
+   border-radius: 7px;
+}
+
+
+.about_education{
+    font-family: lobster;
+    color: rgb(255, 10, 104) !important;
+    font-weight: 500;
+}
+
+.education h5{
+   color: silver;
+   font-size: 14px;
+}
+
+.education span{
+   color: silver;
+   font-size: 15px;
+}
+
+.education small{
+   color: silver;
+   font-size: 13px;
+}

@@ -28,6 +28,7 @@ const Header = () => {
                         <Nav>
                             <Nav.Link className="nav_bar" href="/home">HOME</Nav.Link>
                             <Nav.Link className="nav_bar" href="/projects">PROJECTS</Nav.Link>
+                            <Nav.Link className="nav_bar" href="/aboutMe">ABOUT ME</Nav.Link>
                             <Nav.Link className="nav_bar" href="/contact">CONTACT</Nav.Link>
                             <Nav.Link className="nav_bar" href={resume}>DOWNLOAD RESUME</Nav.Link>
                             
