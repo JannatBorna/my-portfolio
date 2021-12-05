@@ -4,18 +4,28 @@ import { Link } from 'react-router-dom';
 import './HomeProject.css'
   
 const HomeProject = ({ homeProject}) => {
-      const {_id, name, img, discretion } = homeProject;
+    const { name,img, discretion, disc1, disc2, disc3, disc4, disc5, disc6, github, live} = homeProject;
       return (
           <div className="service">
 
               <Container>
                   <img className="w-100 img-size" src={img} alt="" />
                   <h4 className="name-text my-2 text-danger">{name}</h4>
-                  <small className="description-text text-white">{discretion?.slice(0, 90)}</small>
                   
-                     <br />
-                  <Link to={`/details/${_id}`}><button className="details_button my-2">Details</button> </Link>
-              </Container>
+                  <ul className="text-sm-start text_type">
+                      <li>{disc1}</li>
+                      <li>{disc2}</li>
+                     
+                     
+                  </ul>
+                  
+                     
+                  <a href={github}><button className="mt-3 mx-3 button_color">Source Code</button></a>
+
+                  <a href={live}><button className="mt-3 button_color">Live Demo</button></a>
+
+               </Container>    
+             
 
           </div>
       );

@@ -12,7 +12,17 @@
     font-family: lobster;
 }
     
-    
+ .button_view{
+   background-color: rgb(182, 12, 83) !important;
+   color: white !important;
+   border-radius: 4px;
+   margin-left: 240px;
+  position: absolute;
+   width: 20%;
+   height: 33px;
+  
+
+ }   
 
 @media only screen and (max-width:688px) {
     .container_HomeProjects{

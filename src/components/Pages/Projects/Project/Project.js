@@ -54,7 +54,7 @@ const Project = ({ project }) => {
 
                             <a href={github}><button className="mt-3 mx-3 button_color">Source Code</button></a>
 
-                            <a href={live}><button className="mt-3 button_color">Live Project</button></a>
+                            <a href={live}><button className="mt-3 button_color">Live Demo</button></a>
 
                         </div>
                     

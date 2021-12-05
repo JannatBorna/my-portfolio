@@ -78,7 +78,7 @@ return (
                                     enable: true,
                                     value_area: 800,
                                 },
-                                value: 18,
+                                value: 20,
                             },
                             opacity: {
                                 value: 0.5,
@@ -88,7 +88,7 @@ return (
                             },
                             size: {
                                 random: true,
-                                value: 5,
+                                value: 3,
                             },
                         },
                         detectRetina: true,
