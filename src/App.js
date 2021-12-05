@@ -14,11 +14,10 @@ import Blog from './components/Pages/Blogs/Blog';
 
 
 function App() {
-  return ( 
   
+  return ( 
     <div className="App">
-     
-       <BrowserRouter>
+      <BrowserRouter>
              <Header></Header>
            <Routes>
              <Route exact path="/" element={<Home />}>
@@ -43,25 +42,31 @@ function App() {
           <Route exact path="/details/:projectsId" element={<Details />}>
           </Route>  
 
-          
+          </Routes>
+      </BrowserRouter> 
 
+   </div >   
+    
+  );
+}
+
+export default App;   
+       
           
           
          
               
-        </Routes>
-      </BrowserRouter>
-    </div >   
+       
+    
+   
+     
     
 
      
         
     
     
-  );
-}
-
-export default App;
+  
  
         
     

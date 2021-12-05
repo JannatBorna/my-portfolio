@@ -1,5 +1,6 @@
 .about_area{
     padding-top: 5%;
+    background-color: rgb(0, 0, 0);
 }    
 
 .about_img{
@@ -26,9 +27,12 @@
 
 .about_text{
     padding-top: 20%;
-    
-}
+}    
 
+.about_hi{
+    color: rgb(241, 14, 14);
+    font-size: 50px;
+}
 .about_text h2{
     color: rgb(255, 246, 255) !important;
     font-family: lobster;
@@ -83,4 +87,9 @@
 .education li{
   color: silver;
    font-size: 13px;
+}
+
+.skills_button{
+    color: rgb(136, 5, 5) !important;
+    font-weight: 500;
 }

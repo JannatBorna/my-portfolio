@@ -2,12 +2,99 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import about from '../../../images/about/about-2.jpg';
 import './AboutMe.css';
-
+import Particles from "react-tsparticles";
 
 const AboutMe = () => {
-    return (
+    const particlesInit = (main) => {
+        console.log(main);
+    };
+    const particlesLoaded = (container) => {
+        console.log(container);
+    };
+
+return (
     <div className="about_area mb-5">
         <Container>
+                <Particles
+                    id="tsparticles"
+                    init={particlesInit}
+                    loaded={particlesLoaded}
+                    options={{
+
+
+                        fpsLimit: 60,
+                        interactivity: {
+                            events: {
+                                onClick: {
+                                    enable: true,
+                                    mode: "push",
+                                },
+                                onHover: {
+                                    enable: true,
+                                    mode: "repulse",
+                                },
+                                resize: true,
+                            },
+                            modes: {
+                                bubble: {
+                                    distance: 400,
+                                    duration: 2,
+                                    opacity: 0.8,
+                                    size: 40,
+                                },
+                                push: {
+                                    quantity: 4,
+                                },
+                                repulse: {
+                                    distance: 200,
+                                    duration: 0.4,
+                                },
+                            },
+                        },
+                        particles: {
+                            color: {
+                                value: "#ffffff",
+                            },
+                            links: {
+                                color: "#ffffff",
+                                distance: 150,
+                                enable: true,
+                                opacity: 0.5,
+                                width: 1,
+                            },
+                            collisions: {
+                                enable: true,
+                            },
+                            move: {
+                                direction: "none",
+                                enable: true,
+                                outMode: "bounce",
+                                random: false,
+                                speed: 6,
+                                straight: false,
+                            },
+                            number: {
+                                density: {
+                                    enable: true,
+                                    value_area: 800,
+                                },
+                                value: 18,
+                            },
+                            opacity: {
+                                value: 0.5,
+                            },
+                            shape: {
+                                type: "circle",
+                            },
+                            size: {
+                                random: true,
+                                value: 5,
+                            },
+                        },
+                        detectRetina: true,
+                    }}
+
+                />
             
                 <Row className="text-sm-start">
                     <Col lg={4} md={4} sm={12}>
@@ -18,7 +105,7 @@ const AboutMe = () => {
 
                     <Col lg={6} md={6} sm={12}>
                         <div className="about_text">
-                            <h2>Hi..!! I'm Dilruba Jannat Borna</h2>
+                            <h2><span className="about_hi">Hi..!!</span> I'm Dilruba Jannat Borna</h2>
                             <p>I am an enthusiastic JavaScript developer with knowing some frameworks for the frontend and the backend. I  MERN developer. I always focus on learning new technology. I will finish my study in the Department of Computer Science and Engineering(CSE). University of Development Alternative (UODA), Dhaka.</p>
 
                             <div className="all_link text-sm-middle">
@@ -45,15 +132,15 @@ const AboutMe = () => {
                            <ul>
                                <li className="text-sm-start about_li">Expertise:</li>
                            </ul>
-                            <button className="text-white mx-2 my-2 btn_style">React JS</button>
-                            <button className="text-white mx-2 my-2 btn_style">React Router</button>
-                            <button className="text-white mx-2 my-2 btn_style">React Bootstrap</button>
-                            <button className="text-white mx-2 my-2 btn_style">Material UI</button>
-                            <button className="text-white mx-2 my-2 btn_style">HTML5</button>
-                            <button className="text-white mx-2 my-2 btn_style">CSS2</button>
-                            <button className="text-white mx-2 my-2 btn_style">Bootstrap</button>
-                            <button className="text-white mx-2 my-2 btn_style">JavaScript (ES6)</button>
-                            <button className="text-white mx-2 my-2 btn_style">Tailwind css</button>
+                            <button className="skills_button mx-2 my-2 btn_style">React JS</button>
+                            <button className="skills_button mx-2 my-2 btn_style">React Router</button>
+                            <button className="skills_button mx-2 my-2 btn_style">React Bootstrap</button>
+                            <button className="skills_button mx-2 my-2 btn_style">Material UI</button>
+                            <button className="skills_button mx-2 my-2 btn_style">HTML5</button>
+                            <button className="skills_button mx-2 my-2 btn_style">CSS2</button>
+                            <button className="skills_button mx-2 my-2 btn_style">Bootstrap</button>
+                            <button className="skills_button mx-2 my-2 btn_style">JavaScript (ES6)</button>
+                            <button className="skills_button mx-2 my-2 btn_style">Tailwind css</button>
                        </div>
 
 
@@ -63,10 +150,10 @@ const AboutMe = () => {
                             <ul>
                                 <li className="text-sm-start about_li">Comfortable:</li>
                             </ul>
-                            <button className="text-white mx-2 my-2 btn_style">Node</button>
-                            <button className="text-white mx-2 my-2 btn_style">MongoDB</button>
-                            <button className="text-white mx-2 my-2 btn_style">React Router</button>
-                            <button className="text-white mx-2 my-2 btn_style">Firebase</button>
+                            <button className="skills_button mx-2 my-2 btn_style">Node</button>
+                            <button className="skills_button mx-2 my-2 btn_style">MongoDB</button>
+                            <button className="skills_button mx-2 my-2 btn_style">React Router</button>
+                            <button className="skills_button mx-2 my-2 btn_style">Firebase</button>
                         </div>    
                         
 
@@ -74,28 +161,28 @@ const AboutMe = () => {
                            <ul>
                               <li className="text-sm-start about_li">Familiar:</li>
                            </ul>
-                            <button className="text-white mx-2 my-2 btn_style">Material UI</button>
+                            <button className="skills_button mx-2 my-2 btn_style">Material UI</button>
                          </div>    
                             
                         <div className="text-sm-start mt-4">
                             <ul>
                                 <li className="text-sm-start about_li">Tools:</li>
                             </ul>
-                            <button className="text-white mx-2 my-2 btn_style">Heroku</button>
-                            <button className="text-white mx-2 my-2 btn_style">Netlify</button>
-                            <button className="text-white mx-2 my-2 btn_style">Firebase</button>
-                            <button className="text-white mx-2 my-2 btn_style">Chrome Dev-tool</button>
-                            <button className="text-white mx-2 my-2 btn_style">VSCode</button>
-                            <button className="text-white mx-2 my-2 btn_style">Github</button>
+                            <button className="skills_button mx-2 my-2 btn_style">Heroku</button>
+                            <button className="skills_button mx-2 my-2 btn_style">Netlify</button>
+                            <button className="skills_button mx-2 my-2 btn_style">Firebase</button>
+                            <button className="skills_button mx-2 my-2 btn_style">Chrome Dev-tool</button>
+                            <button className="skills_button mx-2 my-2 btn_style">VSCode</button>
+                            <button className="skills_button mx-2 my-2 btn_style">Github</button>
                         </div>    
                         
                      <div className="text-sm-start mt-4">
                             <ul>
                                <li className="text-sm-start about_li">Extra Skills:</li>
                             </ul>
-                            <button className="text-white mx-2 my-2 btn_style">Microsoft Word</button>
-                            <button className="text-white mx-2 my-2 btn_style">Microsoft Powerpoint</button>
-                            <button className="text-white mx-2 my-2 btn_style">Microsoft Excel</button>
+                            <button className="skills_button mx-2 my-2 btn_style">Microsoft Word</button>
+                            <button className="skills_button mx-2 my-2 btn_style">Microsoft Powerpoint</button>
+                            <button className="skills_button mx-2 my-2 btn_style">Microsoft Excel</button>
                             
                         </div>  
                     </Col>
@@ -136,7 +223,7 @@ const AboutMe = () => {
         <footer className="my-5">
            <small className="footer_text">Copyright &copy; 2021 | Jannat Borna</small>
                <br />
-            <span className="text-white my-5 footer_add">Dhaka, Bangladesh</span>
+            <span className="skills_button my-5 footer_add">Dhaka, Bangladesh</span>
         </footer>
 
          </div>

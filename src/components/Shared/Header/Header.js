@@ -14,7 +14,7 @@ const Header = () => {
     // };
       
     return (
-        <div>
+        <div className="header_section">
             <Navbar collapseOnSelect expand="lg" variant="white">
                 <Container>
                     <Navbar.Brand href="#home" className="text-white">

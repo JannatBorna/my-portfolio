@@ -16,7 +16,7 @@ const Details = () => {
    
 
     return (
-        <div>
+        <div className="details_section">
             <h2 className="details_param">Details Id: {projectsId}</h2>
 
 
@@ -72,7 +72,7 @@ const Details = () => {
 
                     <a href="https://assignment12-5175d.web.app/"><button className="mt-3 button_color">Live Project</button></a>
 
-
+                    <a href="/projects"><button className="mt-3 mx-3 more_projects">More Project</button></a>
 
                 </div>
 

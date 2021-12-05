@@ -1,6 +1,7 @@
 .container_HomeProjects{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  background-color: rgb(0, 0, 0);
   
 }
 
