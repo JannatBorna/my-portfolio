@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './HomeProject.css'
   
 const HomeProject = ({ homeProject}) => {
-    const { name,img, discretion, disc1, disc2, disc3, disc4, disc5, disc6, github, live} = homeProject;
+    const { name,img, disc1, disc2, github, live} = homeProject;
       return (
           <div className="service">
 

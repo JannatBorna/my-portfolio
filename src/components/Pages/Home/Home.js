@@ -7,6 +7,7 @@ import resume2 from '../../../resume/DILRUBA JANNAT BORNA(2).pdf'
 import Typewriter from 'typewriter-effect';
 import HomeProjects from '../HomeProjects/HomeProjects/HomeProjects';
 import './Home.css'
+import Skills from '../Skills/Skills';
 
 const Home = () => {
     const particlesInit = (main) => {
@@ -177,9 +178,18 @@ const Home = () => {
                     
                 </Row>   
                         
-              <HomeProjects></HomeProjects>    
-
-              <Contact></Contact> 
+             
+            <HomeProjects></HomeProjects>
+           {/* <Skills></Skills> */}
+           <Contact></Contact>       
+          
+                    
+        
+             
+           
+                    
+            
+              
                 
             </Container>
 

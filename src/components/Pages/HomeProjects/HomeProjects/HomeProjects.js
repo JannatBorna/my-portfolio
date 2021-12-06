@@ -25,8 +25,8 @@ const HomeProjects = () => {
 
                     </HomeProject>)
                 }
-
                 <a href="/projects"><button className="mt-3 button_view"><i className="fas fa-eye"></i> View All Projects</button></a>
+                
             </div>
         </div>
     );
