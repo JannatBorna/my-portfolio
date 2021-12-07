@@ -11,7 +11,7 @@ import Contact from './components/Pages/Contact/Contact';
 import Details from './components/Pages/Details/Details';
 import AboutMe from './components/Pages/AboutMe/AboutMe';
 import Blog from './components/Pages/Blogs/Blog';
-import Skills from './components/Pages/Skills/Skills';
+import Profile from './components/Pages/Profile/Profile';
 
 
 function App() {
@@ -35,7 +35,7 @@ function App() {
           <Route exact path="/blog" element={<Blog />}>
           </Route>
 
-          <Route exact path="/skills" element={<Skills />}>
+          <Route exact path="/profile" element={<Profile />}>
           </Route>
 
           <Route exact path="/contact" element={<Contact />}>

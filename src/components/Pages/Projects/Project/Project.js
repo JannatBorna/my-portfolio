@@ -1,10 +1,10 @@
 import React from 'react';
-import { Container, Carousel, Row, Col} from 'react-bootstrap';
-import Details from '../../Details/Details';
+import { Container, Carousel } from 'react-bootstrap';
 import './Project.css'
 
 const Project = ({ project }) => {
-    const { name, slid1, slid2, slid3, discretion, disc1, disc2, disc3, disc4, disc5, disc6, github, live} = project;
+    const { name, slid1, slid2, slid3, discretion, disc1, disc2, disc3, disc4, disc5, disc6, github, live } = project;
+    
     return (
         <div >
             <Container className="project">

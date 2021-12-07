@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import icon from '../../../images/icon/b-3.png';
+
+
 import resume from '../../../resume/DILRUBA JANNAT BORNA(2).pdf'
 import './Header.css'
 // import { saveAs } from "file-saver";
@@ -31,7 +31,7 @@ const Header = () => {
                             <Nav.Link className="nav_bar" href="/aboutMe">ABOUT ME</Nav.Link>
                             <Nav.Link className="nav_bar" href="/blog">BLOG</Nav.Link>
                             <Nav.Link className="nav_bar" href="/contact">CONTACT</Nav.Link>
-                            <Nav.Link className="nav_bar" href="/skills">Skills</Nav.Link>
+                            <Nav.Link className="nav_bar" href="/profile">Profile</Nav.Link>
                             <Nav.Link className="nav_bar" href={resume}>DOWNLOAD RESUME</Nav.Link>
                             
                           

@@ -122,7 +122,7 @@ const Projects = () => {
                 
                 >
 
-                </Project>)
+                </Project>) 
             }
             </div>
         </div>
