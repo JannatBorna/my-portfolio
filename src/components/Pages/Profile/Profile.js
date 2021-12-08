@@ -7,10 +7,10 @@ import './Profile.css'
 const Profile = () => {
     return (
             
-            <div className= "container">
+        <div className= "container">
             <section id="team" className="pb-5">
                 <div className="container">
-                    <h5 className="section-title h1">OUR TEAM</h5>
+                <h5 className="section-title h1">My</h5>
                     <div className="row">
                        
                         <div className="col-xs-12 col-sm-6 col-md-4">
@@ -35,7 +35,7 @@ const Profile = () => {
                                                     <li className="list-inline-item">
                                                         <a className="social-icon text-xs-center" target="_blank" href="#">
                                                             <i className="fa fa-facebook"></i>
-                                                        </a>
+   </a>                                                     
                                                     </li>
                                                     <li className="list-inline-item">
                                                         <a className="social-icon text-xs-center" target="_blank" href="#">
@@ -296,13 +296,10 @@ const Profile = () => {
                                 </div>
                             </div>
                         </div>
-                       
-
                     </div>
                 </div>
             </section>
-           
- </div>
+    </div>
 
 );
 };
