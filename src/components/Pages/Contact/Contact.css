@@ -1,34 +1,35 @@
-.contact_section{
+.contact_section {
     background-color: rgb(0, 0, 0);
 }
 
-.contact_type{
+.contact_type {
     color: rgb(12, 241, 241) !important;
     font-size: 35px;
     font-weight: 600;
-    font-family: lobster;
+    font-family: cursive;
 }
 
-.contact form{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   
+.contact form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
-.contact form input, textarea{
+.contact form input,
+textarea {
     width: 60%;
     margin-bottom: 10px;
     border: 1px solid brown;
     border-radius: 5px;
 }
 
-.footer_text{
+.footer_text {
     color: white !important;
     font-size: 11px;
 }
 
-.footer_add{
+.footer_add {
     font-size: 10px;
 }

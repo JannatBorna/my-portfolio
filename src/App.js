@@ -35,7 +35,7 @@ function App() {
           <Route exact path="/blog" element={<Blog />}>
           </Route>
 
-          <Route exact path="/profile" element={<Profile />}>
+          <Route path="/profile" element={<Profile />}>
           </Route>
 
           <Route exact path="/contact" element={<Contact />}>

@@ -1,45 +1,46 @@
-.container_HomeProjects{
+.container_HomeProjects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   background-color: rgb(0, 0, 0);
-  
+
 }
 
-.home_project{
-   color: rgb(255, 0, 13) !important;
-    font-size: 35px;
-    font-weight: 600;
-    font-family: lobster;
+.home_project {
+  color: rgb(255, 0, 13) !important;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: cursive;
 }
-    
- .button_view{
-   background-color: rgb(182, 12, 83) !important;
-   color: white !important;
-   border-radius: 4px;
-   margin-left: 240px;
+
+.button_view {
+  background-color: rgb(182, 12, 83) !important;
+  color: white !important;
+  border-radius: 4px;
+  margin-left: 240px;
   position: absolute;
-   width: 20%;
-   height: 33px;
-  
+  width: 20%;
+  height: 33px;
 
- }   
+
+}
 
 @media only screen and (max-width:688px) {
-    .container_HomeProjects{
-      grid-template-columns: repeat(1, 1fr);
-     }
-      .img-size{
-       width: 50%;
-      }
-    
+  .container_HomeProjects {
+    grid-template-columns: repeat(1, 1fr);
   }
 
-  @media only screen and (min-width:689px) and (max-width: 991px) {
-    .container_HomeProjects{
-      grid-template-columns: repeat(1, 1fr);
-    }
-
-    .img-size{
-       width: 50%;
-      }
+  .img-size {
+    width: 50%;
   }
+
+}
+
+@media only screen and (min-width:689px) and (max-width: 991px) {
+  .container_HomeProjects {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .img-size {
+    width: 50%;
+  }
+}
