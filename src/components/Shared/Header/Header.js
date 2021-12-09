@@ -14,7 +14,7 @@ const Header = () => {
       
     return (
         <div className="header_section">
-            <Navbar collapseOnSelect expand="lg" variant="white">
+            <Navbar collapseOnSelect expand="lg" variant="dark">
                 <Container>
                     <Navbar.Brand href="#home" className="text-white">
                     
@@ -25,13 +25,12 @@ const Header = () => {
                     <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                         
                         <Nav>
-                            <Nav.Link className="nav_bar" href="/home">HOME</Nav.Link>
-                            <Nav.Link className="nav_bar" href="/projects">PROJECTS</Nav.Link>
-                            <Nav.Link className="nav_bar" href="/aboutMe">ABOUT ME</Nav.Link>
-                            <Nav.Link className="nav_bar" href="/blog">BLOG</Nav.Link>
-                            <Nav.Link className="nav_bar" href="/contact">CONTACT</Nav.Link>
-                            <Nav.Link className="nav_bar" href="/profile">Profile</Nav.Link>
-                            <Nav.Link className="nav_bar resume_download" href={resume}>DOWNLOAD RESUME</Nav.Link>
+                            <Nav.Link className="nav_bar" href="/home">Home</Nav.Link>
+                            <Nav.Link className="nav_bar" href="/projects">Projects</Nav.Link>
+                            <Nav.Link className="nav_bar" href="/aboutMe">About Me</Nav.Link>
+                            <Nav.Link className="nav_bar" href="/blog">Blog</Nav.Link>
+                            <Nav.Link className="nav_bar" href="/contact">Contact</Nav.Link>
+                           <Nav.Link className="nav_bar resume_download" href={resume}>Download Resume</Nav.Link>
                             
                           
                         </Nav>

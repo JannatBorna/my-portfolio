@@ -1,34 +1,11 @@
-/* FontAwesome for working BootSnippet :> */
-
-/* @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'); */
-
-/* .profile_container {
-    background-color: black !important;
-} */
-
+#team {
+    background: rgb(5, 0, 0) !important;
+}
 
 .section-title {
     color: rgb(243, 12, 101) !important;
     font-family: cursive;
 }
-
-#team {
-    background: rgb(5, 0, 0) !important;
-}
-
-/* .btn-primary:hover,
-.btn-primary:focus {
-    background-color: #c7137c;
-    border-color: #d30b86;
-    box-shadow: none;
-    outline: none;
-} */
-
-/* .btn-primary {
-    color: #fff;
-    background-color: #b3095e;
-    border-color: #d30f5a;
-} */
 
 section {
     padding: 60px 0;
@@ -36,7 +13,6 @@ section {
 
 section .section-title {
     text-align: center;
-    /* color: #007b5e; */
     margin-bottom: 50px;
     text-transform: uppercase;
 }
@@ -69,7 +45,6 @@ section .section-title {
     -webkit-transform-style: preserve-3d;
     -ms-transition: 1s;
     -moz-transition: 1s;
-    /* -moz-transform: perspective(1000px); */
     -moz-transform-style: preserve-3d;
     -ms-transform-style: preserve-3d;
     transition: 1s;
@@ -79,8 +54,6 @@ section .section-title {
 
 .front_side {
     position: relative;
-    /* -webkit-transform: rotateY(0deg);
-    -ms-transform: rotateY(0deg); */
     z-index: 2;
     margin-bottom: 30px;
 }
@@ -124,15 +97,6 @@ section .section-title {
     min-height: 312px;
 }
 
-/* .backside .card a {
-    font-size: 18px;
-    color: #007b5e !important;
-} */
-
-/* .front_side .card .card-title,
-.backside .card .card-title {
-    color: #007b5e !important;
-} */
 
 .front_side .card .card-body img {
     width: 120px;
@@ -149,7 +113,7 @@ section .section-title {
 }
 
 .card-title {
-    color: rgb(241, 92, 23) !important;
+    color: rgb(133, 231, 22) !important;
     font-weight: 600;
     font-family: serif;
 

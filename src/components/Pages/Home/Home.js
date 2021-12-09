@@ -7,7 +7,8 @@ import resume2 from '../../../resume/DILRUBA JANNAT BORNA(2).pdf'
 import Typewriter from 'typewriter-effect';
 import HomeProjects from '../HomeProjects/HomeProjects/HomeProjects';
 import './Home.css'
-import Project from '../Projects/Project/Project';
+
+import Profile from '../Profile/Profile';
 
 
 const Home = () => {
@@ -173,24 +174,11 @@ const Home = () => {
                     
                 </Row>   
                         
-            {/* <Project></Project> */}
+           <Profile></Profile>
             <HomeProjects></HomeProjects>
             <Contact></Contact>       
-          
-           
-                    
-        
-             
-           
-                    
-            
-              
-                
-            </Container>
-
-
-         
-        </div>
+</Container>
+</div>
     );
 };
 

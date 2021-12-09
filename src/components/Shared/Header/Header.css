@@ -1,5 +1,5 @@
 .header_section{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(11, 58, 56);
 }
 
 .image_tag{
@@ -13,10 +13,12 @@
 
 .nav_bar{
     font-size: 15px;
+    color: rgb(255, 255, 255) !important;
 }
 
 .nav_bar:hover{
-    color: rgb(235, 91, 55) !important;
+    color: rgb(250, 107, 12) !important;
+    border-bottom: 3px solid rgb(228, 120, 120);
 }    
     
 .img_color{

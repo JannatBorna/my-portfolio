@@ -124,7 +124,7 @@ const Contact = () => {
                         <input className="my-2 bg-white" {...register("user_email")} placeholder="Email" />
                         <textarea className="my-3 bg-white" {...register("message")} row="4" placeholder="Message" />
 
-                        <input className="btn btn-secondary  my-2 w-25 bg-white text-black" type="submit" value="S E N D" />
+                        <input className="btn btn-secondary my-2 w-50 send_button" type="submit" value="S E N D" />
                     </form>
 
 
