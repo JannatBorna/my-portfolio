@@ -23,6 +23,10 @@
    margin-top: 10px;
 }
 
+.resume_download{
+    border: 1px solid rgb(136, 135, 135);
+}
+
 @media only screen and (max-width:688px) {
     #responsive-navbar-nav{
     color: rgb(255, 255, 255) !important;

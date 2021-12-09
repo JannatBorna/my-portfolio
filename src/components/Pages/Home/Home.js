@@ -105,7 +105,7 @@ const Home = () => {
                 <Row className="home_page">
                     <Col className="text_tag">
                         <div>
-                            <p className="tag_p mx-5 text-sm-start">Hi.. I am Jannat Borna</p>
+                            <p className="tag_p mx-5 text-sm-start">Hi.. I'm Jannat Borna</p>
 
                              <p className="program mx-5 text-sm-start">
 
@@ -153,11 +153,11 @@ const Home = () => {
 
                            
                             <div className="home_button">
-                                <button className=" mb-3 mx-5 button_color">Hire Me</button>
-                                <a href={resume2}><button className="mt-3 button_color">Download Resume</button></a
+                                <button className=" mb-2 mx-2 button_color">Hire Me</button>
+                                <a href={resume2}><button className="mt-2 button_color">Resume</button></a
                                 >
-
-                           </div>
+                            </div>
+                           
                             <div className="all_link text-sm-middle">
                                 <a href="https://github.com/JannatBorna" className="m-2"><i className="fab fa-github"></i></a>
                                
