@@ -10,7 +10,7 @@ const HomeProject = ({ homeProject}) => {
 
               <Container>
                   <img className="w-100 img-size" src={img} alt="" />
-                  <h4 className="name-text my-2 text-danger">{name}</h4>
+                  <h4 className="name-text text-danger">{name}</h4>
                   
                   <ul className="text-sm-start text_type">
                       <li>{disc1}</li>
