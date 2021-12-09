@@ -174,9 +174,9 @@ const Home = () => {
                     
                 </Row>   
                         
-           <Profile></Profile>
-            <HomeProjects></HomeProjects>
-            <Contact></Contact>       
+        <Profile></Profile>
+        <HomeProjects></HomeProjects>
+        <Contact></Contact>       
 </Container>
 </div>
     );

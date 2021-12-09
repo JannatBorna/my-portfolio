@@ -13,13 +13,13 @@
 }
 
 .button_view {
-  background-color: rgb(182, 12, 83) !important;
+  background-color: rgb(221, 14, 100) !important;
   color: white !important;
-  border-radius: 4px;
-  margin-left: 240px;
+  border-radius: 7px;
+  margin-left: 300px;
   position: absolute;
-  width: 20%;
-  height: 33px;
+  width: 10%;
+  height: 40px;
 
 
 }

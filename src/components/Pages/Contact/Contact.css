@@ -1,5 +1,6 @@
 #contact {
     background-color: black !important;
+    margin-top: -500px;
 }
 
 .contact_section {
@@ -29,10 +30,10 @@ textarea {
     border-radius: 5px;
 }
 
-.send_button{
-  background-color: rgb(238, 14, 107) !important;
-  color: white !important;
-} 
+.send_button {
+    background-color: rgb(238, 14, 107) !important;
+    color: white !important;
+}
 
 .footer_text {
     color: white !important;
@@ -45,4 +46,19 @@ textarea {
 
 .contact_link {
     margin-left: 10px;
+}
+
+
+@media only screen and (max-width:688px) {
+    #contact {
+        margin-top: -130px;
+    }
+
+}
+
+@media only screen and (min-width:689px) and (max-width: 991px) {
+
+    #contact {
+        margin-top: -280px;
+    }
 }
