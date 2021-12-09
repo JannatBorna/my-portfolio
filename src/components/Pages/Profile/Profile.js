@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import image1 from '../../../images/skills/full.jpg';
-import image2 from '../../../images/skills/web.jpg';
+import image2 from '../../../images/skills/web-5.jpg';
 import image3 from '../../../images/skills/ps.jpg';
 import './Profile.css'
 
@@ -22,7 +22,7 @@ const Profile = () => {
                                             <div className="card-body text-center">
                                                 <p><img className=" img-fluid w-100" src={image1} alt="card image" /></p>
                                                 <h4 className="card-title">MERN Stack Developer</h4>
-                                                {/* <p className="card-text">This is basic card with image on top, title, description and button.</p> */}
+                                               
                                                 <a href="#" className="btn_button btn-sm"><i className="fa fa-plus"></i></a>
                                             </div>
                                         </div>

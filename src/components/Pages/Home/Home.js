@@ -134,7 +134,7 @@ const Home = () => {
                                             .changeCursor('<strong class="text_cursor">|</strong>')
                                             .deleteChars(16)
                                             .typeString('<strong class="typewriter_text">Front End Developer!</strong>')
-                                            .deleteChars(21)
+                                            .deleteChars(20)
                                             .pauseFor(2000)
                                             .changeCursor('<strong class="text_cursor">|</strong>')
                                             .start();
