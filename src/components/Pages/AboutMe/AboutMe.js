@@ -13,8 +13,9 @@ const AboutMe = () => {
     };
 
 return (
-    <div className="about_area mb-5">
-        <Container>
+    <section id="about">
+        <div className="about_area mb-5">
+            <Container>
                 <Particles
                     id="tsparticles"
                     init={particlesInit}
@@ -95,7 +96,7 @@ return (
                     }}
 
                 />
-            
+
                 <Row className="text-sm-start">
                     <Col lg={4} md={4} sm={12}>
                         <div className="about_img mx-5">
@@ -126,12 +127,12 @@ return (
 
                 <Row className="mt-5 text-sm-start" >
                     <Col lg={6} md={6} sm={12}>
-                       <h1 className="about_skills mt-5">My Skills</h1>
-                           
+                        <h1 className="about_skills mt-5">My Skills</h1>
+
                         <div className="text-sm-start mt-4">
-                           <ul>
-                               <li className="text-sm-start about_li">Expertise:</li>
-                           </ul>
+                            <ul>
+                                <li className="text-sm-start about_li">Expertise:</li>
+                            </ul>
                             <button className="skills_button mx-2 my-2 btn_style">React JS</button>
                             <button className="skills_button mx-2 my-2 btn_style">React Router</button>
                             <button className="skills_button mx-2 my-2 btn_style">React Bootstrap</button>
@@ -141,11 +142,11 @@ return (
                             <button className="skills_button mx-2 my-2 btn_style">Bootstrap</button>
                             <button className="skills_button mx-2 my-2 btn_style">JavaScript (ES6)</button>
                             <button className="skills_button mx-2 my-2 btn_style">Tailwind css</button>
-                       </div>
+                        </div>
 
 
 
-                        
+
                         <div className="text-sm-start mt-4">
                             <ul>
                                 <li className="text-sm-start about_li">Comfortable:</li>
@@ -154,16 +155,16 @@ return (
                             <button className="skills_button mx-2 my-2 btn_style">MongoDB</button>
                             <button className="skills_button mx-2 my-2 btn_style">React Router</button>
                             <button className="skills_button mx-2 my-2 btn_style">Firebase</button>
-                        </div>    
-                        
+                        </div>
+
 
                         <div className="text-sm-start mt-4">
-                           <ul>
-                              <li className="text-sm-start about_li">Familiar:</li>
-                           </ul>
+                            <ul>
+                                <li className="text-sm-start about_li">Familiar:</li>
+                            </ul>
                             <button className="skills_button mx-2 my-2 btn_style">Material UI</button>
-                         </div>    
-                            
+                        </div>
+
                         <div className="text-sm-start mt-4">
                             <ul>
                                 <li className="text-sm-start about_li">Tools:</li>
@@ -174,32 +175,32 @@ return (
                             <button className="skills_button mx-2 my-2 btn_style">Chrome Dev-tool</button>
                             <button className="skills_button mx-2 my-2 btn_style">VSCode</button>
                             <button className="skills_button mx-2 my-2 btn_style">Github</button>
-                        </div>    
-                        
-                     <div className="text-sm-start mt-4">
+                        </div>
+
+                        <div className="text-sm-start mt-4">
                             <ul>
-                               <li className="text-sm-start about_li">Extra Skills:</li>
+                                <li className="text-sm-start about_li">Extra Skills:</li>
                             </ul>
                             <button className="skills_button mx-2 my-2 btn_style">Microsoft Word</button>
                             <button className="skills_button mx-2 my-2 btn_style">Microsoft Powerpoint</button>
                             <button className="skills_button mx-2 my-2 btn_style">Microsoft Excel</button>
-                            
-                        </div>  
+
+                        </div>
                     </Col>
 
-                        
-                        
-     
-                    
-                   
+
+
+
+
+
                     <Col lg={4} md={4} sm={12}>
-                       <div className="education mt-5 text-sm-start">
+                        <div className="education mt-5 text-sm-start">
                             <h2 className="about_education mt-5">My Education</h2>
                             <h5>B.Sc. in Computer Science and Engineering(CSE)</h5>
                             <span>University of Development Alternative (UODA)</span>
                             <small> January 2018 – Current</small>
                         </div>
-                           
+
                         <div className="education mt-5 text-sm-start">
                             <h2 className="about_education mt-5">My Hobby</h2>
                             <ul>
@@ -208,25 +209,21 @@ return (
                                 <li>learning something new</li>
                                 <li>It's my favorite part, always self toking, It's very important for every person.</li>
                             </ul>
-                            
-                           
                         </div>
 
-
-                       
                     </Col>
                 </Row>
-               
-        </Container>   
+            </Container>
 
 
-        <footer className="my-5">
-           <small className="footer_text">Copyright &copy; 2021 | Jannat Borna</small>
-               <br />
-            <span className="skills_button my-5 footer_add">Dhaka, Bangladesh</span>
-        </footer>
+            <footer className="my-5">
+                <small className="footer_text">Copyright &copy; 2021 | Jannat Borna</small>
+                <br />
+                <span className="skills_button my-5 footer_add">Dhaka, Bangladesh</span>
+            </footer>
 
-         </div>
+        </div>
+    </section>
     );
 };
 

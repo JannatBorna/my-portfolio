@@ -1,3 +1,7 @@
+#contact {
+    background-color: black !important;
+}
+
 .contact_section {
     background-color: rgb(0, 0, 0);
 }
@@ -32,4 +36,8 @@ textarea {
 
 .footer_add {
     font-size: 10px;
+}
+
+.contact_link{
+    margin-left: 10px;
 }

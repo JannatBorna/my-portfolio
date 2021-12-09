@@ -30,127 +30,129 @@ const Contact = () => {
 
 
     return (
-        <div className="contact_section">
+        <section id="contact">
+            <div className="contact_section">
 
-            <Particles
-                id="tsparticles"
-                init={particlesInit}
-                loaded={particlesLoaded}
-                options={{
+                <Particles
+                    id="tsparticles"
+                    init={particlesInit}
+                    loaded={particlesLoaded}
+                    options={{
 
 
-                    fpsLimit: 60,
-                    interactivity: {
-                        events: {
-                            onClick: {
+                        fpsLimit: 60,
+                        interactivity: {
+                            events: {
+                                onClick: {
+                                    enable: true,
+                                    mode: "push",
+                                },
+                                onHover: {
+                                    enable: true,
+                                    mode: "repulse",
+                                },
+                                resize: true,
+                            },
+                            modes: {
+                                bubble: {
+                                    distance: 400,
+                                    duration: 2,
+                                    opacity: 0.8,
+                                    size: 40,
+                                },
+                                push: {
+                                    quantity: 4,
+                                },
+                                repulse: {
+                                    distance: 200,
+                                    duration: 0.4,
+                                },
+                            },
+                        },
+                        particles: {
+                            color: {
+                                value: "#ffffff",
+                            },
+                            links: {
+                                color: "#ffffff",
+                                distance: 150,
                                 enable: true,
-                                mode: "push",
+                                opacity: 0.5,
+                                width: 1,
                             },
-                            onHover: {
+                            collisions: {
                                 enable: true,
-                                mode: "repulse",
                             },
-                            resize: true,
-                        },
-                        modes: {
-                            bubble: {
-                                distance: 400,
-                                duration: 2,
-                                opacity: 0.8,
-                                size: 40,
-                            },
-                            push: {
-                                quantity: 4,
-                            },
-                            repulse: {
-                                distance: 200,
-                                duration: 0.4,
-                            },
-                        },
-                    },
-                    particles: {
-                        color: {
-                            value: "#ffffff",
-                        },
-                        links: {
-                            color: "#ffffff",
-                            distance: 150,
-                            enable: true,
-                            opacity: 0.5,
-                            width: 1,
-                        },
-                        collisions: {
-                            enable: true,
-                        },
-                        move: {
-                            direction: "none",
-                            enable: true,
-                            outMode: "bounce",
-                            random: false,
-                            speed: 6,
-                            straight: false,
-                        },
-                        number: {
-                            density: {
+                            move: {
+                                direction: "none",
                                 enable: true,
-                                value_area: 800,
+                                outMode: "bounce",
+                                random: false,
+                                speed: 6,
+                                straight: false,
                             },
-                            value: 20,
+                            number: {
+                                density: {
+                                    enable: true,
+                                    value_area: 800,
+                                },
+                                value: 20,
+                            },
+                            opacity: {
+                                value: 0.5,
+                            },
+                            shape: {
+                                type: "circle",
+                            },
+                            size: {
+                                random: true,
+                                value: 3,
+                            },
                         },
-                        opacity: {
-                            value: 0.5,
-                        },
-                        shape: {
-                            type: "circle",
-                        },
-                        size: {
-                            random: true,
-                            value: 3,
-                        },
-                    },
-                    detectRetina: true,
-                }}
+                        detectRetina: true,
+                    }}
 
-            />
+                />
 
 
 
 
-            <div className="contact">
-                <h2 className="contact_type mt-5">Contact Me</h2>
-                <form onSubmit={sendEmail}>
-                    <input className="bg-white mt-5" {...register("name", { required: true, maxLength: 25 })} placeholder="Enter Name" />
-                    <input className="my-2 bg-white" {...register("user_email")} placeholder="Email" />
-                    <textarea className="my-3 bg-white" {...register("message")} row="4" placeholder="Message" />
-                    
-                    <input className="btn btn-secondary  my-2 w-25 bg-white text-black" type="submit" value="S E N D" />
-                </form>
-                 
-                
-       
-            <footer className="my-5">
+                <div className="contact">
+                    <h2 className="contact_type mt-5">Contact Me</h2>
+                    <form onSubmit={sendEmail}>
+                        <input className="bg-white mt-5" {...register("name", { required: true, maxLength: 25 })} placeholder="Enter Name" />
+                        <input className="my-2 bg-white" {...register("user_email")} placeholder="Email" />
+                        <textarea className="my-3 bg-white" {...register("message")} row="4" placeholder="Message" />
+
+                        <input className="btn btn-secondary  my-2 w-25 bg-white text-black" type="submit" value="S E N D" />
+                    </form>
+
+
+
+                    <footer className="my-5">
                         <small className="footer_text">Copyright &copy; 2021 | Jannat Borna</small>
-                          <br />
+                        <br />
                         <span className="text-white my-5">Dhaka, Bangladesh</span>
-        
-         
-              <div className="all_link text-sm-middle">
-                        <a href="https://github.com/JannatBorna" className="m-2"><i className="fab fa-github fs-6"></i></a>
 
-                        <a href="https://www.linkedin.com/in/dilruba-jannat-borna-09147b216/" className="mx-3"><i className="fab fa-linkedin fs-6"></i></a>
 
-                        <a href="https://www.instagram.com/borna_jannat/" className="mx-3"><i class="fab fa-instagram fs-6"></i></a>
+                        <div className="contact_link text-sm-middle">
+                            <a href="https://github.com/JannatBorna" className="m-2"><i className="fab fa-github fs-6"></i></a>
 
-                        <a href="https://www.facebook.com/Bornabaset" className="mx-3"><i className="fab fa-facebook-square fs-6"></i></a>
+                            <a href="https://www.linkedin.com/in/dilruba-jannat-borna-09147b216/" className="mx-2"><i className="fab fa-linkedin fs-6"></i></a>
 
-                        <a href="https://twitter.com/" className="mx-3"><i className="fab fa-twitter fs-6"></i></a>
-               
-                
+                            <a href="https://www.instagram.com/borna_jannat/" className="mx-2"><i class="fab fa-instagram fs-6"></i></a>
+
+                            <a href="https://www.facebook.com/Bornabaset" className="mx-2"><i className="fab fa-facebook-square fs-6"></i></a>
+
+                            <a href="https://twitter.com/" className="mx-2"><i className="fab fa-twitter fs-6"></i></a>
+
+
+                        </div>
+                    </footer>
                 </div>
-             </footer>
-            </div>
 
-          </div>
+            </div>
+        </section>
         
     );
 };
