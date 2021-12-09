@@ -32,28 +32,17 @@ const Profile = () => {
                                             <div className="card-body text-center mt-4">
                                                 <h4 className=" title_text">MERN Stack Developer</h4>
                                                 <p className="card-text">I am a MERN stack web developer. I use MongoDB for database and Express JS, Node Js for server side work. You can see i have done some MERN project.</p>
-                                                <ul className="list-inline">
-                                                    <li className="list-inline-item">
-                                                        <a className="social-icon text-xs-center" target="_blank" href="#">
-                                                            <i className="fa fa-facebook"></i>
-                                                        </a>                                                     
-                                                    </li>
-                                                    <li className="list-inline-item">
-                                                        <a className="social-icon text-xs-center" target="_blank" href="#">
-                                                            <i className="fa fa-twitter"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li className="list-inline-item">
-                                                        <a className="social-icon text-xs-center" target="_blank" href="#">
-                                                            <i className="fa fa-skype"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li className="list-inline-item">
-                                                        <a className="social-icon text-xs-center" target="_blank" href="#">
-                                                            <i className="fa fa-google"></i>
-                                                        </a>
-                                                    </li>
-                                                </ul>
+                                                <div className="contact_link text-sm-middle">
+                                                    <a href="https://github.com/JannatBorna" className="m-2"><i className="fab fa-github fs-6"></i></a>
+
+                                                    <a href="https://www.linkedin.com/in/dilruba-jannat-borna-09147b216/" className="mx-2"><i className="fab fa-linkedin fs-6"></i></a>
+
+                                                    <a href="https://www.instagram.com/borna_jannat/" className="mx-2"><i class="fab fa-instagram fs-6"></i></a>
+
+                                                    <a href="https://www.facebook.com/Bornabaset" className="mx-2"><i className="fab fa-facebook-square fs-6"></i></a>
+
+                                                    <a href="https://twitter.com/" className="mx-2"><i className="fab fa-twitter fs-6"></i></a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -81,28 +70,17 @@ const Profile = () => {
                                             <div className="card-body text-center mt-4">
                                                 <h4 className="title_text">Web Designing</h4>
                                                 <p className="card-text">I am expert in web designing. I can add functionality besides designing a webpage. I use HTML, CSS, Bootstrap, Vanilla Js, React JS for it. You can see some of my works below.</p>
-                                                <ul className="list-inline">
-                                                    <li className="list-inline-item">
-                                                        <a className="social-icon text-xs-center" target="_blank" href="#">
-                                                            <i className="fa fa-facebook"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li className="list-inline-item">
-                                                        <a className="social-icon text-xs-center" target="_blank" href="#">
-                                                            <i className="fa fa-twitter"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li className="list-inline-item">
-                                                        <a className="social-icon text-xs-center" target="_blank" href="#">
-                                                            <i className="fa fa-skype"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li className="list-inline-item">
-                                                        <a className="social-icon text-xs-center" target="_blank" href="#">
-                                                            <i className="fa fa-google"></i>
-                                                        </a>
-                                                    </li>
-                                                </ul>
+                                                <div className="contact_link text-sm-middle">
+                                                    <a href="https://github.com/JannatBorna" className="m-2"><i className="fab fa-github fs-6"></i></a>
+
+                                                    <a href="https://www.linkedin.com/in/dilruba-jannat-borna-09147b216/" className="mx-2"><i className="fab fa-linkedin fs-6"></i></a>
+
+                                                    <a href="https://www.instagram.com/borna_jannat/" className="mx-2"><i class="fab fa-instagram fs-6"></i></a>
+
+                                                    <a href="https://www.facebook.com/Bornabaset" className="mx-2"><i className="fab fa-facebook-square fs-6"></i></a>
+
+                                                    <a href="https://twitter.com/" className="mx-2"><i className="fab fa-twitter fs-6"></i></a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -128,44 +106,32 @@ const Profile = () => {
                                             <div className="card-body text-center mt-4">
                                                 <h4 className="title_text">PSD To HTML</h4>
                                                 <p className="card-text">I can covert any PSD design to a responsive webpage. I use HTML, CSS, Bootstrap, Vanilla Js, React JS for it. You can see some of my works in portfolio tab in this website.</p>
-                                                <ul className="list-inline">
-                                                    <li className="list-inline-item">
-                                                        <a className="social-icon text-xs-center" target="_blank" href="#">
-                                                            <i className="fa fa-facebook"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li className="list-inline-item">
-                                                        <a className="social-icon text-xs-center" target="_blank" href="#">
-                                                            <i className="fa fa-twitter"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li className="list-inline-item">
-                                                        <a className="social-icon text-xs-center" target="_blank" href="#">
-                                                            <i className="fa fa-skype"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li className="list-inline-item">
-                                                        <a className="social-icon text-xs-center" target="_blank" href="#">
-                                                            <i className="fa fa-google"></i>
-                                                        </a>
-                                                    </li>
-                                                </ul>
+                                                <div className="profile_link text-sm-middle">
+                                                    <a href="https://github.com/JannatBorna" className="m-2"><i className="fab fa-github fs-6"></i></a>
+
+                                                    <a href="https://www.linkedin.com/in/dilruba-jannat-borna-09147b216/" className="mx-2"><i className="fab fa-linkedin fs-6"></i></a>
+
+                                                    <a href="https://www.instagram.com/borna_jannat/" className="mx-2"><i class="fab fa-instagram fs-6"></i></a>
+
+                                                    <a href="https://www.facebook.com/Bornabaset" className="mx-2"><i className="fab fa-facebook-square fs-6"></i></a>
+
+                                                    <a href="https://twitter.com/" className="mx-2"><i className="fab fa-twitter fs-6"></i></a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                       
-
-                     
                     </div>
                 </div>
             </section>
-    {/* </div> */}
 </Container>
 );
 };
 
-export default Profile;
+export default Profile;  
+
+                     
+                    
   

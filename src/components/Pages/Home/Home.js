@@ -138,14 +138,8 @@ const Home = () => {
                                             .pauseFor(2000)
                                             .changeCursor('<strong class="text_cursor">|</strong>')
                                             .start();
-                                            
-                                        
-
-                                           
-                                           
                                     }}
-
-                                />
+                           />
 
                              </p>
                           

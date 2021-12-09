@@ -33,14 +33,37 @@
     width: 50%;
   }
 
+  .button_view {
+    background-color: rgb(7, 107, 32) !important;
+    color: rgb(218, 211, 211) !important;
+    font-weight: 600;
+    border-radius: 4px;
+    margin-left: -90px;
+    position: absolute;
+    width: 50%;
+    height: 40px;
+  }
+
 }
 
 @media only screen and (min-width:689px) and (max-width: 991px) {
   .container_HomeProjects {
     grid-template-columns: repeat(1, 1fr);
+
   }
 
   .img-size {
     width: 50%;
+  }
+
+  .button_view {
+    background-color: rgb(224, 145, 26) !important;
+    color: rgb(12, 11, 11) !important;
+    font-weight: 600;
+    border-radius: 4px;
+    margin-left: -120px;
+    position: absolute;
+    width: 40%;
+    height: 40px;
   }
 }

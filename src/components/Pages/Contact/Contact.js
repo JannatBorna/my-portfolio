@@ -145,15 +145,13 @@ const Contact = () => {
                             <a href="https://www.facebook.com/Bornabaset" className="mx-2"><i className="fab fa-facebook-square fs-6"></i></a>
 
                             <a href="https://twitter.com/" className="mx-2"><i className="fab fa-twitter fs-6"></i></a>
-
-
                         </div>
+
+                        
                     </footer>
                 </div>
-
             </div>
         </section>
-        
     );
 };
 

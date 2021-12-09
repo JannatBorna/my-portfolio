@@ -14,7 +14,7 @@ const HomeProjects = () => {
     }, [])
     return (
         <div>
-            <h2 className="home_project justify-content-middle">My Projects</h2>
+            <h2 className="home_project justify-content-middle mt-5">My Projects</h2>
             <div className="container_HomeProjects">
                 {
                     homeProjects.slice(0, limit ? limit : homeProjects.length).map(homeProject => <HomeProject
@@ -25,7 +25,9 @@ const HomeProjects = () => {
 
                     </HomeProject>)
                 }
-                <a href="/projects"><button className="mt-3 button_view"><i className="fas fa-eye"></i> View All Projects</button></a>
+                <div className="view_project">
+                    <a href="/projects"><button className="mt-3 button_view"><i className="fas fa-eye"></i> View All Projects</button></a>
+                </div>
                 
             </div>
         </div>

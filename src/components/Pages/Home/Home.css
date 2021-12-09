@@ -58,7 +58,7 @@
 .all_link {
   font-size: 20px;
   margin-right: 140px;
- }
+}
 
 
 .home_button {
@@ -126,14 +126,39 @@ h1 {
 }
 
 @media only screen and (max-width:688px) {
-  .home_page {
+.home_page {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+.all_link {
+    font-size: 20px;
+    margin-right: 90px;
+  }
+
+
+.home_button {
+    margin-right: 120px;
+  }
+
+.image {
+    margin: 50px;
+    width: 50%;
+
   }
 }
 
 @media only screen and (min-width:689px) and (max-width: 991px) {
-  .home_page {
+.home_page {
     grid-template-columns: repeat(1, 1fr);
+  }
 
+.all_link {
+    font-size: 13px;
+    margin-right: 120px;
+  }
+
+
+.home_button {
+    margin-right: 120px;
   }
 }
