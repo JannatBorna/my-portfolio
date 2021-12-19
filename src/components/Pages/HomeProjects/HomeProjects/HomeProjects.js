@@ -14,7 +14,7 @@ const HomeProjects = () => {
     }, [])
     return (
         <div>
-            <h2 className="home_project justify-content-middle">My Projects</h2>
+            <h2 className="home_project justify-content-middle">MY PROJECTS</h2>
             <div className="container_HomeProjects">
                 {
                     homeProjects.slice(0, limit ? limit : homeProjects.length).map(homeProject => <HomeProject

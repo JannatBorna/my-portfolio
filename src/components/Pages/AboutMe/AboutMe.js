@@ -138,7 +138,7 @@ return (
                             <button className="skills_button mx-2 my-2 btn_style">React Bootstrap</button>
                             <button className="skills_button mx-2 my-2 btn_style">Material UI</button>
                             <button className="skills_button mx-2 my-2 btn_style">HTML5</button>
-                            <button className="skills_button mx-2 my-2 btn_style">CSS2</button>
+                            <button className="skills_button mx-2 my-2 btn_style">CSS3</button>
                             <button className="skills_button mx-2 my-2 btn_style">Bootstrap</button>
                             <button className="skills_button mx-2 my-2 btn_style">JavaScript (ES6)</button>
                             <button className="skills_button mx-2 my-2 btn_style">Tailwind css</button>

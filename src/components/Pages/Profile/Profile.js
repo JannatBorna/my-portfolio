@@ -7,7 +7,7 @@ import './Profile.css'
 
 const Profile = () => {
     return (
-       <Container>     
+        <Container>     
       
         <section id="team" className="pb-5">
             <div className="container">
@@ -60,7 +60,7 @@ const Profile = () => {
                                             <div className="card-body text-center">
                                                 <p><img className=" img-fluid w-100" src={image2} alt="card image" /></p>
                                                 <h4 className="card-title">Web Designing</h4>
-                                                {/* <p className="card-text">This is basic card with image on top, title, description and button.</p> */}
+                                                
                                                 <a href="#" className="btn_button btn-sm"><i className="fa fa-plus"></i></a>
                                             </div>
                                         </div>
@@ -96,7 +96,7 @@ const Profile = () => {
                                             <div className="card-body text-center">
                                                 <p><img className=" img-fluid w-100" src={image3} alt="card image" /></p>
                                                 <h4 className="card-title">PSD To HTML</h4>
-                                                {/* <p className="card-text">This is basic card with image on top, title, description and button.</p> */}
+                                             
                                                 <a href="#" className="btn_button btn-sm"><i className="fa fa-plus"></i></a>
                                             </div>
                                         </div>

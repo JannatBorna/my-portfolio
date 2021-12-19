@@ -1,10 +1,11 @@
 #contact {
     background-color: black !important;
-    margin-top: -500px;
+    
 }
 
 .contact_section {
     background-color: rgb(0, 0, 0);
+    margin-top: -570px;
 }
 
 .contact_type {
@@ -12,7 +13,9 @@
     font-size: 35px;
     font-weight: 600;
     font-family: cursive;
+   
 }
+
 
 .contact form {
     display: flex;
@@ -51,7 +54,7 @@ textarea {
 
 @media only screen and (max-width:688px) {
     #contact {
-        margin-top: -130px;
+        margin-top: 400px;
     }
 
 }
@@ -59,6 +62,6 @@ textarea {
 @media only screen and (min-width:689px) and (max-width: 991px) {
 
     #contact {
-        margin-top: -280px;
+        margin-top: 200px;
     }
 }

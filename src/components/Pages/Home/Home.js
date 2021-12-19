@@ -2,10 +2,10 @@ import React from 'react';
 import Particles from "react-tsparticles";
 import { Col, Container, Image, Row } from 'react-bootstrap';
 import img from '../../../images/borna.jpg'
-import Contact from '../Contact/Contact';
 import resume2 from '../../../resume/DILRUBA JANNAT BORNA(2).pdf'
 import Typewriter from 'typewriter-effect';
 import HomeProjects from '../HomeProjects/HomeProjects/HomeProjects';
+import Contact from '../Contact/Contact';
 import './Home.css'
 
 import Profile from '../Profile/Profile';
@@ -173,11 +173,12 @@ const Home = () => {
                     </Col>
                     
                 </Row>   
-                        
+   </Container>  
+
         <Profile></Profile>
         <HomeProjects></HomeProjects>
         <Contact></Contact>       
-</Container>
+
 </div>
     );
 };

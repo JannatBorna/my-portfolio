@@ -114,11 +114,8 @@ const Contact = () => {
 
                 />
 
-
-
-
                 <div className="contact">
-                    <h2 className="contact_type mt-5">Contact Me</h2>
+                    <h2 className="contact_type mt-5">CONTACT ME</h2>
                     <form onSubmit={sendEmail}>
                         <input className="bg-white mt-5" {...register("name", { required: true, maxLength: 25 })} placeholder="Enter Name" />
                         <input className="my-2 bg-white" {...register("user_email")} placeholder="Email" />
@@ -157,5 +154,8 @@ const Contact = () => {
 
 export default Contact;
 
+
+
+                
 
         

@@ -1,45 +1,46 @@
-.header_section{
+.header_section {
     background-color: rgb(11, 58, 56);
 }
 
-.image_tag{
+.image_tag {
     width: 10%;
 }
 
-#responsive-navbar-nav{
+#responsive-navbar-nav {
     color: rgb(255, 255, 255) !important;
 
 }
 
-.nav_bar{
+.nav_bar {
     font-size: 15px;
     color: rgb(255, 255, 255) !important;
 }
 
-.nav_bar:hover{
+.nav_bar:hover {
     color: rgb(250, 107, 12) !important;
     border-bottom: 3px solid rgb(228, 120, 120);
-}    
-    
-.img_color{
-   margin-top: 10px;
+    font-weight: 600;
 }
 
-.resume_download{
+.img_color {
+    margin-top: 10px;
+}
+
+.resume_download {
     border: 1px solid rgb(136, 135, 135);
 }
 
 @media only screen and (max-width:688px) {
-    #responsive-navbar-nav{
-    color: rgb(255, 255, 255) !important;
+    #responsive-navbar-nav {
+        color: rgb(255, 255, 255) !important;
 
 
     }
-  }
-
-  @media only screen and (min-width:689px) and (max-width: 991px) {
-    #responsive-navbar-nav{
-    color: rgb(255, 255, 255) !important;
-
 }
-  }
+
+@media only screen and (min-width:689px) and (max-width: 991px) {
+    #responsive-navbar-nav {
+        color: rgb(255, 255, 255) !important;
+
+    }
+}

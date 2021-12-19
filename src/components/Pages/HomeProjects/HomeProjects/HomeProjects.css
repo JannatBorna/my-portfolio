@@ -7,7 +7,7 @@
 
 .home_project {
   color: rgb(255, 0, 13) !important;
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 600;
   font-family: cursive;
 }
@@ -16,7 +16,7 @@
   background-color: rgb(221, 14, 100) !important;
   color: white !important;
   border-radius: 7px;
-  margin-left: 300px;
+  margin-left: 370px;
   position: absolute;
   width: 10%;
   height: 40px;
