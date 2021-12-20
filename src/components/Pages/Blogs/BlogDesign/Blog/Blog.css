@@ -1,11 +1,11 @@
 .blog_section {
-    border: 1px solid rgb(12, 12, 12);
+    border: 1px solid rgb(3, 3, 3);
     width: 100%;
 
 }
 
 .blog_name {
-    color: white !important;
+    color: rgb(29, 118, 160) !important;
     font-size: 20px;
     text-align: left;
     font-family: cursive;

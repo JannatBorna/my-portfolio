@@ -14,10 +14,10 @@ return (
                 <button className="mt-3 mb-3 mx-2 blog_button">Read More</button>
             </div>
 
-            <div className="view_read">
-                <div className="view_comment mx-3">Views <br /> ----- <br /> 254</div>
-                <div className="view_comment mx-3">Reads <br /> ----- <br />264</div>
-                <div className="view_comment mx-3">Comment <br /> ----- <br /> 1235</div>
+            <div className="view_read mt-1">
+                <div className="view_comment mx-3">Views<br /> -----<br /> 1254</div>
+                <div className="view_comment mx-3">Read<br /> -----<br />5</div>
+                <div className="view_comment mx-3">Comments<br /> -----<br /> 12</div>
             </div>
             
         </Container>
