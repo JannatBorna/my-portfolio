@@ -1,0 +1,49 @@
+.blog_section {
+    border: 1px solid rgb(12, 12, 12);
+    width: 100%;
+
+}
+
+.blog_name {
+    color: white !important;
+    font-size: 20px;
+    text-align: left;
+    font-family: cursive;
+}
+
+.blog_discretion {
+    color: white !important;
+    font-size: 10px;
+    text-align: left;
+    font-family: cursive;
+}
+
+.blog_button {
+    background-color: rgb(8, 133, 138) !important;
+    color: white !important;
+    border-radius: 7px;
+    width: 30%;
+    height: 40px;
+    font-family: cursive;
+}
+
+.view_read {
+    display: flex;
+    height: 90px;
+    background-color: rgb(202, 22, 73) !important;
+    border-radius: 5px;
+}
+
+
+.view_comment {
+    margin: 10px;
+    color: rgb(8, 8, 8) !important;
+    background-color: rgb(205, 206, 218) !important;
+    width: 45%;
+    height: 67px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+

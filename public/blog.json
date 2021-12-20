@@ -1,0 +1,23 @@
+[
+    {
+        "_id": "01",
+        "name": "Top 10 Things Developer Must Know About css",
+        "img": "https://i.ibb.co/VBZjhSS/css.jpg",
+        "discretion": "In this blogs i will discuss Top 10 Things Every Web-Developer Must Know about About JS."
+    },
+
+    {
+        "_id": "02",
+        "name": "Top 10 Things Developer Must Know About css",
+        "img": "https://i.ibb.co/nB8vgSx/js-es6.jpg",
+        "discretion": "In this blogs i will discuss Top 10 Things Every Web-Developer Must Know about About JS."
+    },   
+    
+
+    {
+        "_id": "03",
+        "name": "Top 10 Things Developer Must Know About css",
+        "img": "https://i.ibb.co/Hg3rQ1T/i.jpg",
+        "discretion": "In this blogs i will discuss Top 10 Things Every Web-Developer Must Know about About JS."
+     }
+]

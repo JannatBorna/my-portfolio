@@ -10,8 +10,9 @@ import Projects from './components/Pages/Projects/Projects/Projects';
 import Contact from './components/Pages/Contact/Contact';
 import Details from './components/Pages/Details/Details';
 import AboutMe from './components/Pages/AboutMe/AboutMe';
-import Blog from './components/Pages/Blogs/Blog';
 import Profile from './components/Pages/Profile/Profile';
+import Blogs from './components/Pages/Blogs/BlogDesign/Blogs/Blogs';
+
 
 
 function App() {
@@ -32,7 +33,7 @@ function App() {
           <Route exact path="/aboutMe" element={<AboutMe />}>
           </Route>
 
-          <Route exact path="/blog" element={<Blog />}>
+          <Route exact path="/blogs" element={<Blogs />}>
           </Route>
 
           <Route path="/profile" element={<Profile />}>

@@ -1,0 +1,31 @@
+#blogs {
+    background-color: black !important;
+}
+
+.my_blogs{
+    color: rgb(255, 0, 85) !important;
+    font-family: cursive;
+    font-size: 35px;
+}
+
+
+.blog_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+
+}
+
+
+@media only screen and (max-width:688px) {
+    .blog_container {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+}
+
+@media only screen and (min-width:689px) and (max-width: 991px) {
+    .blog_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
