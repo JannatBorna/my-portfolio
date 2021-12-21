@@ -1,23 +1,26 @@
 [
     {
         "_id": "01",
-        "name": "Top 10 Things Developer Must Know About css",
+        "name": "Top 2 Things Developer Must Know About css",
         "img": "https://i.ibb.co/VBZjhSS/css.jpg",
-        "discretion": "In this blogs i will discuss Top 10 Things Every Web-Developer Must Know about About JS."
+        "discretion": "In this blogs i will discuss Top 10 Things Every Web-Developer Must Know about About JS.",
+        "myBlog": "https://medium.com/@bornajannat12/2-important-things-web-developer-must-know-about-css-a6c8428a44c0"
     },
 
     {
         "_id": "02",
-        "name": "Top 10 Things Developer Must Know About css",
-        "img": "https://i.ibb.co/nB8vgSx/js-es6.jpg",
-        "discretion": "In this blogs i will discuss Top 10 Things Every Web-Developer Must Know about About JS."
+        "name": "Top 7 Things Developer Must Know About Javascript",
+        "img": "https://i.ibb.co/2tXJxCq/js.jpg",
+        "discretion": "In this blogs i will discuss Top 10 Things Every Web-Developer Must Know about About JS.",
+        "myBlog": "https://medium.com/@bornajannat12/top-7-things-must-know-about-javascript-ef8ae8352adf"
     },   
     
 
     {
         "_id": "03",
-        "name": "Top 10 Things Developer Must Know About css",
-        "img": "https://i.ibb.co/Hg3rQ1T/i.jpg",
-        "discretion": "In this blogs i will discuss Top 10 Things Every Web-Developer Must Know about About JS."
+        "name": "Top 5 Things Developer Must Know About Javascript/ES6",
+        "img": "https://i.ibb.co/nB8vgSx/js-es6.jpg",
+        "discretion": "In this blogs i will discuss Top 10 Things Every Web-Developer Must Know about About JS.",
+        "myBlog": "https://medium.com/@bornajannat12/top-5-things-must-know-about-javascript-es6-607d1ff555cd"
      }
 ]

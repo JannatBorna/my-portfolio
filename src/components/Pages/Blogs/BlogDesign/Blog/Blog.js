@@ -1,17 +1,19 @@
 import React from 'react';
 import './Blog.css';
 import { Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Blog = ({ blog }) => {
-    const { name, img, discretion } = blog;
+    const { name, img, discretion, myBlog } = blog;
 return (
     <section id="blogs">
         <Container>
+            
             <div className="blog_section">
                 <img className="w-100 mt-3" src={img} alt="" />
                 <h3 className="blog_name mt-4 mx-2">{name}</h3>
                 <p className="blog_discretion mt-2 mx-2">{discretion}</p>
-                <button className="mt-3 mb-3 mx-2 blog_button">Read More</button>
+                <a href={myBlog}><button className="mt-3 mb-3 mx-2 blog_button">Read More</button></a>
             </div>
 
             <div className="view_read mt-1">

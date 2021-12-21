@@ -9,6 +9,7 @@ import Contact from '../Contact/Contact';
 import './Home.css'
 
 import Profile from '../Profile/Profile';
+import Blogs from '../Blogs/BlogDesign/Blogs/Blogs';
 
 
 const Home = () => {
@@ -177,7 +178,13 @@ const Home = () => {
 
         <Profile></Profile>
         <HomeProjects></HomeProjects>
-        <Contact></Contact>       
+        <div className='home_blog'>
+                <Blogs></Blogs>
+        </div>
+
+            <div className='home_contact'>
+                <Contact></Contact>    
+            </div>   
 
 </div>
     );
