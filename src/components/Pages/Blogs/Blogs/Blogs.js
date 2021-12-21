@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Container } from 'react-bootstrap';
-import Blog from '../Blog/Blog';
 import Particles from "react-tsparticles";
+import Blog from '../Blog/Blog';
 import './Blogs.css';
 
 const Blogs = () => {

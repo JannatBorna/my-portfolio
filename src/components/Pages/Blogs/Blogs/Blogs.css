@@ -2,7 +2,7 @@
     background-color: black !important;
 }
 
-.my_blogs{
+.my_blogs {
     color: rgb(255, 0, 85) !important;
     font-family: cursive;
     font-size: 35px;
@@ -18,9 +18,15 @@
 
 
 @media only screen and (max-width:688px) {
+    .my_blogs {
+        color: rgb(255, 0, 85) !important;
+        font-family: cursive;
+        font-size: 35px;
+        margin-top: 310px;
+    }
+
     .blog_container {
         grid-template-columns: repeat(1, 1fr);
-
     }
 }
 

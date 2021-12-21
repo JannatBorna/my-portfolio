@@ -47,3 +47,28 @@
     font-weight: 600;
 }
 
+@media only screen and (max-width:688px) {
+    .blog_button {
+        background-color: rgb(211, 78, 16) !important;
+        color: white !important;
+        border-radius: 7px;
+        width: 30%;
+        height: 40px;
+        font-family: cursive;
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (min-width:689px) and (max-width: 991px) {
+    .blog_button {
+        background-color: rgb(155, 206, 13) !important;
+        color: white !important;
+        border-radius: 7px;
+        width: 30%;
+        height: 50px;
+        font-family: cursive;
+        font-size: 14px;
+    }
+
+}

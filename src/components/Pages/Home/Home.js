@@ -9,7 +9,8 @@ import Contact from '../Contact/Contact';
 import './Home.css'
 
 import Profile from '../Profile/Profile';
-import Blogs from '../Blogs/BlogDesign/Blogs/Blogs';
+import Blogs from '../Blogs/Blogs/Blogs';
+
 
 
 const Home = () => {

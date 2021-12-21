@@ -11,7 +11,8 @@ import Contact from './components/Pages/Contact/Contact';
 import Details from './components/Pages/Details/Details';
 import AboutMe from './components/Pages/AboutMe/AboutMe';
 import Profile from './components/Pages/Profile/Profile';
-import Blogs from './components/Pages/Blogs/BlogDesign/Blogs/Blogs';
+import Blogs from './components/Pages/Blogs/Blogs/Blogs';
+
 
 
 
