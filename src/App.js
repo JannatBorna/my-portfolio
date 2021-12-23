@@ -12,6 +12,7 @@ import Details from './components/Pages/Details/Details';
 import AboutMe from './components/Pages/AboutMe/AboutMe';
 import Profile from './components/Pages/Profile/Profile';
 import Blogs from './components/Pages/Blogs/Blogs/Blogs';
+import RecentProjects from './components/Pages/RecentProjects/RecentProjects/RecentProjects';
 
 
 
@@ -35,6 +36,9 @@ function App() {
           </Route>
 
           <Route exact path="/blogs" element={<Blogs />}>
+          </Route>
+
+          <Route exact path="/recentProject" element={<RecentProjects />}>
           </Route>
 
           <Route path="/profile" element={<Profile />}>

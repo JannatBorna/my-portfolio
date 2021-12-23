@@ -22,5 +22,22 @@
         "img": "https://i.ibb.co/nB8vgSx/js-es6.jpg",
         "discretion": "In this blogs i will discuss Top 10 Things Every Web-Developer Must Know about About JS.",
         "myBlog": "https://medium.com/@bornajannat12/top-5-things-must-know-about-javascript-es6-607d1ff555cd"
-     }
+     },
+
+     {
+        "_id": "03",
+        "name": " Top 9 Things Must Know About React",
+        "img": "https://i.ibb.co/BCSNnCn/1-Y-Q0-V3eux-Zi-RUdk-g01-CCw.png",
+        "discretion": "In this blogs i will discuss Top 10 Things Every Web-Developer Must Know about About JS.",
+        "myBlog": "https://medium.com/@bornajannat12/top-9-things-must-know-about-react-6ce39fe71781"
+    },
+
+
+    {
+        "_id": "03",
+        "name": "Top 7 Things Web-Developer Must Know About Backend",
+        "img": "https://i.ibb.co/dPXND8s/back.png",
+        "discretion": "In this blogs i will discuss Top 10 Things Every Web-Developer Must Know about About JS.",
+        "myBlog": "https://medium.com/@bornajannat12/top-7-things-must-know-about-backend-a9ad6b65e348"
+    }
 ]

@@ -29,6 +29,7 @@ const Header = () => {
                             <Nav.Link eventKey="/projects" className="nav_bar" href="/projects">Projects</Nav.Link>
                             <Nav.Link className="nav_bar" href="/aboutMe">About Me</Nav.Link>
                             <Nav.Link className="nav_bar" href="/blogs">Blogs</Nav.Link>
+                            <Nav.Link className="nav_bar" href="/recentProject">Recent Project</Nav.Link>
                             <Nav.Link className="nav_bar" href="/contact">Contact</Nav.Link>
                            <Nav.Link className="nav_bar resume_download" href={resume}>Download Resume</Nav.Link>
                             

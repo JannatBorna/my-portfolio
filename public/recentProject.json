@@ -1,0 +1,19 @@
+[
+    {
+        "_id": "1",
+        "name": "Hotel Tourism",
+        "img": "https://i.ibb.co/XC3gtZc/project-1.png",
+        "slid1": "https://i.ibb.co/4KKzkjP/hotel-1.jpg",
+        "slid2": "https://i.ibb.co/4YM6HLY/hotel-3.jpg",
+        "slid3": "https://i.ibb.co/j6rJc4p/hotel-4.jpg",
+        "discretion": "Tourism-related website.Through this website, users can get any hotel service. Click on Booking Now, but before that must log in.",
+        "disc1": "Users can log in with Firebase authentication (Google Github).",
+        "disc2": "private page when logged in - My Order, Manage All Order, Add New Service.",
+        "disc3": " Products delete, add, manage services.",
+        "disc4": "This website has some more services - courier service, resort service, tour guide service,",
+        "disc5": "Front-end technology: React js, Bootstrap, React Router, Firebase Authentication,React Spring, Material UI",
+        "disc6": "Back-end technology: Node js,Express js, MongoDB",
+        "live": "https://learning-school-bcec1.web.app",
+        "github": "https://github.com/JannatBorna/tourism-project-assignment-11-client-side"
+    }
+]

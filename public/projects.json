@@ -1,4 +1,22 @@
 [
+    {
+        "_id": "0",
+        "name": "learning school",
+        "img": "https://i.ibb.co/W0719JB/Capture.png",
+        "slid1": "https://i.ibb.co/b6RH9ty/Capture3.png",
+        "slid2": "https://i.ibb.co/W0719JB/Capture.png",
+        "slid3": "https://i.ibb.co/yVBz9pG/Capture4.png",
+        "discretion": "My website name is Learning School. This website is Learning School related only. School learning is the acquisition of knowledge, subject matter, information, understanding improving school learning.",
+        "disc1": "private page when logged in - My Order, Manage All Order, Add New Service.",
+        "disc2": "Products delete, add, manage services.",
+        "disc3": "I can search any book",
+        "disc4": "Be it Bengali, English, Java, JavaScript etc",
+        "disc5": "Front-end technology: React js, Bootstrap, React Router, Firebase Authentication,React Spring, Material UI",
+        "disc6": "Node js,Express js, MongoDB",
+        "live": "https://learning-school-bcec1.web.app",
+        "github": " https://github.com/JannatBorna/assignment-larning-school-client"
+    },
+
     {   
         "_id": "1",
         "name": "Hotel Tourism",
@@ -12,8 +30,8 @@
         "disc2": "private page when logged in - My Order, Manage All Order, Add New Service.",
         "disc3": " Products delete, add, manage services.",
         "disc4": "This website has some more services - courier service, resort service, tour guide service,",
-        "disc5": "Front-end technology: React js, Bootstrap, React Router, Firebase Authentication,React Spring, Material UI",
-        "disc6": "Back-end technology: Node js,Express js, MongoDB",
+        "disc5": " React js, Bootstrap, React Router, Firebase Authentication,React Spring, Material UI",
+        "disc6": "Node js,Express js, MongoDB",
        
 
         "live":"https://react-firebase-authentic-babb0.web.app/",
@@ -40,11 +58,7 @@
     "github": "https://github.com/JannatBorna/project-client-side-assignment-12"
    
    },   
-    
-
-        
-        
-    
+     
 
     {
 
