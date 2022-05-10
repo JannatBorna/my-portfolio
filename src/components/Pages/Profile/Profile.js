@@ -1,17 +1,21 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Image } from 'react-bootstrap';
 import image1 from '../../../images/skills/full.jpg';
 import image2 from '../../../images/skills/web-5.jpg';
 import image3 from '../../../images/skills/ps.jpg';
 import './Profile.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Profile = () => {
-    return (
-        <Container>     
-      
-        <section id="team" className="pb-5">
+
+    AOS.init();
+
+return (
+    <section id="team">
+            <Container>  
             <div className="container">
-                    <h5 className="section-title h1">Chose I Provide</h5>
+                    <h5 className="section-title h1" data-aos="zoom-in-right" data-aos-duration="3000">Chose I Provide</h5>
                     <div className="row">
                        
                         <div className="col-xs-12 col-sm-6 col-md-4">
@@ -20,10 +24,10 @@ const Profile = () => {
                                     <div className="front_side">
                                         <div className="card">
                                             <div className="card-body text-center">
-                                                <p><img className=" img-fluid w-100" src={image1} alt="card image" /></p>
+                                                <p><Image className=" img-fluid w-100" src={image1} alt="card image" /></p>
                                                 <h4 className="card-title">MERN Stack Developer</h4>
                                                
-                                                <a href="#" className="btn_button btn-sm"><i className="fa fa-plus"></i></a>
+                                                <a href=".." className="btn_button btn-sm"><i className="fa fa-plus"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -58,10 +62,10 @@ const Profile = () => {
                                     <div className="front_side">
                                         <div className="card">
                                             <div className="card-body text-center">
-                                                <p><img className=" img-fluid w-100" src={image2} alt="card image" /></p>
+                                                <p><Image className=" img-fluid w-100" src={image2} alt="card image" /></p>
                                                 <h4 className="card-title">Web Designing</h4>
                                                 
-                                                <a href="#" className="btn_button btn-sm"><i className="fa fa-plus"></i></a>
+                                                <a href=".." className="btn_button btn-sm"><i className="fa fa-plus"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -94,10 +98,10 @@ const Profile = () => {
                                     <div className="front_side">
                                         <div className="card">
                                             <div className="card-body text-center">
-                                                <p><img className=" img-fluid w-100" src={image3} alt="card image" /></p>
+                                                <p><Image className=" img-fluid w-100" src={image3} alt="card image" /></p>
                                                 <h4 className="card-title">PSD To HTML</h4>
                                              
-                                                <a href="#" className="btn_button btn-sm"><i className="fa fa-plus"></i></a>
+                                                <a href=".." className="btn_button btn-sm"><i className="fa fa-plus"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -125,8 +129,10 @@ const Profile = () => {
                         </div>
                     </div>
                 </div>
-            </section>
-</Container>
+            
+    </Container>
+ </section>          
+
 );
 };
 

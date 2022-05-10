@@ -1,193 +1,92 @@
 import React from 'react';
-import Particles from "react-tsparticles";
-import { Col, Container, Image, Row } from 'react-bootstrap';
-import img from '../../../images/borna.jpg'
-import resume2 from '../../../resume/DILRUBA JANNAT BORNA(2).pdf'
+import { Container, Image} from 'react-bootstrap';
+import img from '../../../images/borna-2.jpg';
+import resume2 from '../../../resume/DILRUBA JANNAT BORNA (7).pdf';
 import Typewriter from 'typewriter-effect';
-import HomeProjects from '../HomeProjects/HomeProjects/HomeProjects';
-import Contact from '../Contact/Contact';
-import './Home.css'
+import './Home.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
-import Profile from '../Profile/Profile';
-import Blogs from '../Blogs/Blogs/Blogs';
 
 
 
 const Home = () => {
-    const particlesInit = (main) => {
-        console.log(main);
-    };
-    const particlesLoaded = (container) => {
-        console.log(container);
-    };
-    return (
-        <div className="home_page">
+    AOS.init();
+    
+return (
+    <section id="home-section">
+        <Container>
+            {/* <Row> */}
+                <div className="home-image">
+                   <div data-aos="flip-up" data-aos-duration="3000">
+                       <Image src={img} alt="..."/>
+                   </div>
+                </div>
 
-            <Particles
-                id="tsparticles"
-                init={particlesInit}
-                loaded={particlesLoaded}
-                options={{
-                    
-                   
-                    fpsLimit: 60,
-                    interactivity: {
-                        events: {
-                            onClick: {
-                                enable: true,
-                                mode: "push",
-                            },
-                            onHover: {
-                                enable: true,
-                                mode: "repulse",
-                            },
-                            resize: true,
-                        },
-                        modes: {
-                            bubble: {
-                                distance: 400,
-                                duration: 2,
-                                opacity: 0.8,
-                                size: 40,
-                            },
-                            push: {
-                                quantity: 4,
-                            },
-                            repulse: {
-                                distance: 200,
-                                duration: 0.4,
-                            },
-                        },
-                    },
-                    particles: {
-                        color: {
-                            value: "#ffffff",
-                        },
-                        links: {
-                            color: "#ffffff",
-                            distance: 150,
-                            enable: true,
-                            opacity: 0.5,
-                            width: 1,
-                        },
-                        collisions: {
-                            enable: true,
-                        },
-                        move: {
-                            direction: "none",
-                            enable: true,
-                            outMode: "bounce",
-                            random: false,
-                            speed: 6,
-                            straight: false,
-                        },
-                        number: {
-                            density: {
-                                enable: true,
-                                value_area: 800,
-                            },
-                            value: 18,
-                        },
-                        opacity: {
-                            value: 0.5,
-                        },
-                        shape: {
-                            type: "circle",
-                        },
-                        size: {
-                            random: true,
-                            value: 5,
-                        },
-                    },
-                    detectRetina: true,
-                }}
+                <div className="text-center mt-5">
+                        <h1 data-aos="zoom-in-down" data-aos-duration="3000">Hi.. I'm Jannat Borna</h1>
+                        <p className="program" data-aos="zoom-in-up" data-aos-duration="3000">
+                            <Typewriter
+                                 options={{
+                                    autoStart: true,
+                                        loop: true,   
+                                    }}    
+                                onInit={(typewriter) => {    
+                                 typewriter 
+                                .changeCursor('<strong class="text_cursor">|</strong>')
+                                .typeString('<strong class="typewriter_text">Programmer!</strong>')
+                                .pauseFor(2000)
+                                .deleteChars(11)
+                                .changeCursor('<strong class="text_cursor">|</strong>')
+                                .typeString('<strong class="typewriter_text">React Developer!</strong>')
+                                .pauseFor(2000)
+                                .start()
+                                .deleteChars(19)
+                                .typeString('<strong class="typewriter_text">Web Developer!</strong>')
+                                .start()
+                                .changeCursor('<strong class="text_cursor">|</strong>')
+                                .deleteChars(16)
+                                .typeString('<strong class="typewriter_text">Front End Developer!</strong>')
+                                .deleteChars(20)
+                                .pauseFor(2000)
+                                .changeCursor('<strong class="text_cursor">|</strong>')
+                                .start();
+                                    }} 
+                            />       
+                        </p>       
+                                           
+                        <p data-aos="zoom-in-left" data-aos-duration="3000">
+                            I am an enthusiastic JavaScript with knowing some frameworks for the frontend <br /> and the backend.I always focus on learning new technology. </p>   
 
-            />
-            
-            <Container>
-                <Row className="home_page">
-                    <Col className="text_tag">
-                        <div>
-                            <p className="tag_p mx-5 text-sm-start">Hi.. I'm Jannat Borna</p>
-
-                             <p className="program mx-5 text-sm-start">
-
-                                <Typewriter
-                                 
-                                    options={{
-                                       
-                                        autoStart: true,
-                                        loop: true,
-                                    }}
+             <div className="home-button text-center">
+                <a href="/Contact"><button className=" mb-2 mx-2 main-button">Hire Me</button></a>
+                <a href={resume2}><button className="mt-2 main-button">Resume</button></a>
+            </div>    
+                
+                                
+                                               
+            <div className="all-link text-sm-middle">
+                <a href="https://github.com/JannatBorna" className="m-2"><i className="fab fa-github  main-button"></i></a>
                                
-                                    onInit={(typewriter) => {
-                                       
-                                        typewriter 
-                                            .changeCursor('<strong class="text_cursor">|</strong>')
-                                            .typeString('<strong class="typewriter_text">Programmer!</strong>')
-                                            .pauseFor(2000)
-                                            .deleteChars(11)
-                                            .changeCursor('<strong class="text_cursor">|</strong>')
-                                            .typeString('<strong class="typewriter_text">React Developer!</strong>')
-                                            .pauseFor(2000)
-                                            .start()
-                                            .deleteChars(19)
-                                            .typeString('<strong class="typewriter_text">Web Developer!</strong>')
-                                            .start()
-                                            .changeCursor('<strong class="text_cursor">|</strong>')
-                                            .deleteChars(16)
-                                            .typeString('<strong class="typewriter_text">Front End Developer!</strong>')
-                                            .deleteChars(20)
-                                            .pauseFor(2000)
-                                            .changeCursor('<strong class="text_cursor">|</strong>')
-                                            .start();
-                                    }}
-                           />
+                <a href="https://www.linkedin.com/in/dilruba-jannat-borna-09147b216/" className="mx-3"><i className="fab fa-linkedin  main-button"></i></a>
 
-                             </p>
-                          
-                            <p className="tag_small mx-5 text-sm-start">I am an enthusiastic JavaScript with knowing some frameworks for the frontend and the backend.I always focus on learning new technology. </p>
-
-                           
-                            <div className="home_button">
-                                <button className=" mb-2 mx-2 button_color">Hire Me</button>
-                                <a href={resume2}><button className="mt-2 button_color">Resume</button></a
-                                >
-                            </div>
-                           
-                            <div className="all_link text-sm-middle">
-                                <a href="https://github.com/JannatBorna" className="m-2"><i className="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/borna_jannat/" className="mx-3"><i class="fab fa-instagram  main-button"></i></a>
                                
-                                <a href="https://www.linkedin.com/in/dilruba-jannat-borna-09147b216/" className="mx-3"><i className="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/Bornabaset" className="mx-3"><i className="fab fa-facebook-square  main-button"></i></a>
 
-                                <a href="https://www.instagram.com/borna_jannat/" className="mx-3"><i class="fab fa-instagram"></i></a>
-                               
-                                <a href="https://www.facebook.com/Bornabaset" className="mx-3"><i className="fab fa-facebook-square"></i></a>
+                <a href="https://twitter.com/" className="mx-3"><i className="fab fa-twitter  main-button"></i></a>
+            </div>                
 
-                                <a href="https://twitter.com/" className="mx-3"><i className="fab fa-twitter"></i></a>
-                           </div>
+            </div>      
 
-                        </div>
-                    </Col>
-                    
-                    <Col className="image">
-                          <Image className="h-25 w-75 mt-5" src={img} roundedCircle />
-                    </Col>
-                    
-                </Row>   
-   </Container>  
+        <hr />        
 
-        <Profile></Profile>
-        <HomeProjects></HomeProjects>
-        <div className='home_blog'>
-                <Blogs></Blogs>
+        <div>
+            <a href="/profile" className='text-white'><button className="more-button">READ MORE</button></a>
         </div>
-
-            <div className='home_contact'>
-                <Contact></Contact>    
-            </div>   
-
-</div>
+    
+  </Container>  
+</section>
     );
 };
 

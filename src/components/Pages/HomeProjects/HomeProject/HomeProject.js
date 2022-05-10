@@ -15,7 +15,7 @@ const HomeProject = ({ homeProject}) => {
     }
   }))
 
-    const { name,img, disc1, disc2, github, live} = homeProject;
+    const { name, img, disc1, disc2, github, live} = homeProject;
 return ( 
       <div className="service">
          

@@ -2,19 +2,10 @@ import React from 'react';
 import { useForm } from "react-hook-form";
 import emailjs from 'emailjs-com';
 import './Contact.css';
-import Particles from "react-tsparticles";
+
 
 
 const Contact = () => {
-    const particlesInit = (main) => {
-        console.log(main);
-    };
-    const particlesLoaded = (container) => {
-        console.log(container);
-    };
-
-
-
     const { register} = useForm();
 
     const sendEmail = (e) => {
@@ -32,88 +23,6 @@ const Contact = () => {
     return (
         <section id="contact">
             <div className="contact_section">
-
-                <Particles
-                    id="tsparticles"
-                    init={particlesInit}
-                    loaded={particlesLoaded}
-                    options={{
-
-
-                        fpsLimit: 60,
-                        interactivity: {
-                            events: {
-                                onClick: {
-                                    enable: true,
-                                    mode: "push",
-                                },
-                                onHover: {
-                                    enable: true,
-                                    mode: "repulse",
-                                },
-                                resize: true,
-                            },
-                            modes: {
-                                bubble: {
-                                    distance: 400,
-                                    duration: 2,
-                                    opacity: 0.8,
-                                    size: 40,
-                                },
-                                push: {
-                                    quantity: 4,
-                                },
-                                repulse: {
-                                    distance: 200,
-                                    duration: 0.4,
-                                },
-                            },
-                        },
-                        particles: {
-                            color: {
-                                value: "#ffffff",
-                            },
-                            links: {
-                                color: "#ffffff",
-                                distance: 150,
-                                enable: true,
-                                opacity: 0.5,
-                                width: 1,
-                            },
-                            collisions: {
-                                enable: true,
-                            },
-                            move: {
-                                direction: "none",
-                                enable: true,
-                                outMode: "bounce",
-                                random: false,
-                                speed: 6,
-                                straight: false,
-                            },
-                            number: {
-                                density: {
-                                    enable: true,
-                                    value_area: 800,
-                                },
-                                value: 20,
-                            },
-                            opacity: {
-                                value: 0.5,
-                            },
-                            shape: {
-                                type: "circle",
-                            },
-                            size: {
-                                random: true,
-                                value: 3,
-                            },
-                        },
-                        detectRetina: true,
-                    }}
-
-                />
-
                 <div className="contact">
                     <h2 className="contact_type mt-5">CONTACT ME</h2>
                     <form onSubmit={sendEmail}>

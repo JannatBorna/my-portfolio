@@ -1,4 +1,4 @@
-.about{
+#about{
    background-color: black !important;
 } 
 
@@ -34,7 +34,7 @@
 }
 
 .about_hi {
-    color: rgb(241, 14, 14);
+    color: rgb(241, 14, 112);
     font-size: 50px;
 }
 

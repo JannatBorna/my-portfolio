@@ -1,5 +1,5 @@
 import React from 'react';
-import { Carousel, Container } from 'react-bootstrap';
+import { Carousel, Container, Image } from 'react-bootstrap';
 import { useParams } from 'react-router';
 import image1 from '../../../images/projects/purfum-1.jpg'
 import image2 from '../../../images/projects/purfum-2.jpg'
@@ -9,20 +9,11 @@ import './Details.css'
 const Details = () => {
    
     const { projectsId } = useParams();
-    
-    
-    
 
-   
 
     return (
         <div className="details_section">
             <h2 className="details_param">Details Id: {projectsId}</h2>
-
-
-            {/* <h3>project: {details.name}</h3> */}
-
-
             <Container className="project">
                 <div>
                     <Carousel variant="white">
@@ -36,10 +27,7 @@ const Details = () => {
                         </Carousel.Item>
 
                         <Carousel.Item>
-                            <img
-                                className="d-block w-100 mt-4"
-                                src={image2}
-                            />
+                            <Image className="d-block w-100 mt-4" src={image2} />
                         </Carousel.Item>
 
 

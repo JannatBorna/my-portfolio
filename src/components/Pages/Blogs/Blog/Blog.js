@@ -1,7 +1,6 @@
 import React from 'react';
 import './Blog.css';
 import { Container } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 
 const Blog = ({ blog }) => {
     const { name, img, discretion, myBlog } = blog;
